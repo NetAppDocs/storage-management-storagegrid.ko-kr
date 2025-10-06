@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-remove-storagegrid.html 
 keywords: storagegrid, cluster, remove, delete, remove storagegrid, delete cluster, delete working environment, remove working environment, remove system, delete system 
-summary: 더 이상 NetApp 콘솔에서 StorageGRID 시스템을 관리하지 않으려면 해당 시스템을 제거하세요. 
+summary: 더 이상 NetApp Console 에서 StorageGRID 시스템을 관리하지 않으려면 해당 시스템을 제거하세요. 
 ---
 = StorageGRID 시스템 제거
 :hardbreaks:
@@ -14,10 +14,10 @@ summary: 더 이상 NetApp 콘솔에서 StorageGRID 시스템을 관리하지 �
 
 
 [role="lead"]
-더 이상 NetApp 콘솔에서 StorageGRID 시스템을 관리하지 않으려면 해당 시스템을 제거하세요.
+더 이상 NetApp Console 에서 StorageGRID 시스템을 관리하지 않으려면 해당 시스템을 제거하세요.
 
-.필요한 NetApp 콘솔 역할:
-저장소 관리자.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetApp 콘솔 액세스 역할에 대해 알아보세요."^]
+.필요한 NetApp Console 역할:
+저장소 관리자.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetApp Console 액세스 역할에 대해 알아보세요."^]
 
 콘솔에서 시스템을 제거해도 StorageGRID 시스템에는 영향을 미치지 않습니다.  언제든지 콘솔에 다시 추가할 수 있습니다.
 

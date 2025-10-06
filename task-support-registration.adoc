@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-support-registration.html 
 keywords: support registration, register for support, support, nss account, add nss account, 
-summary: NetApp 기술 지원팀에 지원 사례를 개설하려면 먼저 NetApp 콘솔에 NetApp 지원 사이트 계정을 추가한 다음 지원을 위해 등록해야 합니다. 
+summary: NetApp 기술 지원팀에 지원 사례를 개설하려면 먼저 NetApp Console 에 NetApp 지원 사이트 계정을 추가한 다음 지원을 위해 등록해야 합니다. 
 ---
 = 지원 등록
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: NetApp 기술 지원팀에 지원 사례를 개설하려면 먼저 NetA
 
 
 [role="lead"]
-NetApp 콘솔과 해당 스토리지 솔루션, 데이터 서비스에 대한 기술 지원을 받으려면 지원 등록이 필요합니다. Cloud Volumes ONTAP 시스템의 주요 워크플로를 활성화하려면 지원 등록도 필요합니다.
+NetApp Console 과 해당 스토리지 솔루션, 데이터 서비스에 대한 기술 지원을 받으려면 지원 등록이 필요합니다. Cloud Volumes ONTAP 시스템의 주요 워크플로를 활성화하려면 지원 등록도 필요합니다.
 
 지원에 등록해도 클라우드 공급자 파일 서비스에 대한 NetApp 지원은 제공되지 않습니다. 클라우드 공급자 파일 서비스, 해당 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원에 대해서는 해당 제품 설명서의 "도움말 받기"를 참조하세요.
 
@@ -26,13 +26,13 @@ NetApp 콘솔과 해당 스토리지 솔루션, 데이터 서비스에 대한 �
 
 지원 자격을 활성화하기 위한 등록 방법은 두 가지가 있습니다.
 
-* NetApp 콘솔 계정 일련 번호를 등록합니다(콘솔의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호).
+* NetApp Console 계정 일련 번호를 등록합니다(콘솔의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호).
 +
 이는 콘솔 내의 모든 서비스에 대한 단일 지원 구독 ID 역할을 합니다. 각 콘솔 계정을 등록해야 합니다.
 
 * 클라우드 공급업체의 마켓플레이스에서 구독과 관련된 Cloud Volumes ONTAP 일련 번호를 등록합니다(20자리 909201xxxxxxxx 일련 번호).
 +
-이러한 일련 번호는 일반적으로 _PAYGO 일련 번호_라고 하며 Cloud Volumes ONTAP 배포 시 NetApp 콘솔에서 생성됩니다.
+이러한 일련 번호는 일반적으로 _PAYGO 일련 번호_라고 하며 Cloud Volumes ONTAP 배포 시 NetApp Console 에서 생성됩니다.
 
 
 
@@ -40,9 +40,9 @@ NetApp 콘솔과 해당 스토리지 솔루션, 데이터 서비스에 대한 �
 
 
 
-== NetApp 지원을 위해 NetApp 콘솔 등록
+== NetApp 지원을 위해 NetApp Console 등록
 
-지원을 등록하고 지원 자격을 활성화하려면 NetApp 콘솔 계정의 한 사용자가 NetApp 지원 사이트 계정을 콘솔 로그인과 연결해야 합니다. NetApp 지원에 등록하는 방법은 NetApp 지원 사이트(NSS) 계정이 있는지 여부에 따라 달라집니다.
+지원을 등록하고 지원 자격을 활성화하려면 NetApp Console 계정의 한 사용자가 NetApp 지원 사이트 계정을 콘솔 로그인과 연결해야 합니다. NetApp 지원에 등록하는 방법은 NetApp 지원 사이트(NSS) 계정이 있는지 여부에 따라 달라집니다.
 
 
 
@@ -132,7 +132,7 @@ Cloud Volumes ONTAP 에 대한 다음 주요 워크플로를 활성화하려면 
 * Cloud Volumes ONTAP 소프트웨어를 최신 릴리스로 업그레이드
 
 
-NSS 자격 증명을 NetApp 콘솔 계정과 연결하는 것은 콘솔 사용자 로그인과 연결된 NSS 계정과 다릅니다.
+NSS 자격 증명을 NetApp Console 계정과 연결하는 것은 콘솔 사용자 로그인과 연결된 NSS 계정과 다릅니다.
 
 이러한 NSS 자격 증명은 특정 콘솔 계정 ID와 연결됩니다. 콘솔 조직에 속한 사용자는 *지원 > NSS 관리*에서 이러한 자격 증명에 액세스할 수 있습니다.
 
@@ -146,7 +146,7 @@ NSS 자격 증명을 NetApp 콘솔 계정과 연결하는 것은 콘솔 사용�
 image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png["지원이 첫 번째 옵션으로 나열된 도움말 메뉴의 스크린샷"]
 
 . *NSS 관리 > NSS 계정 추가*를 선택하세요.
-. 메시지가 표시되면 *계속*을 선택하여 Microsoft 로그인 페이지로 리디렉션됩니다.
+. 메시지가 표시되면 *계속*을 선택하여 Microsoft 로그인 페이지로 이동합니다.
 +
 NetApp 지원 및 라이선싱에 특화된 인증 서비스를 위한 ID 공급자로 Microsoft Entra ID를 사용합니다.
 

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-administer-storagegrid.html 
 keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
-summary: 고급 보기를 사용하여 NetApp 콘솔에서 StorageGRID 시스템을 관리합니다.  이 보기를 사용하면 NetApp 콘솔 내에서 Grid Manager를 사용할 수 있습니다. 
+summary: 고급 보기를 사용하여 NetApp Console 에서 StorageGRID 시스템을 관리합니다.  이 보기를 사용하면 NetApp Console 내에서 Grid Manager를 사용할 수 있습니다. 
 ---
-= NetApp 콘솔의 Grid Manager를 사용하여 StorageGRID 관리
+= NetApp Console 의 Grid Manager를 사용하여 StorageGRID 관리
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -16,7 +16,7 @@ summary: 고급 보기를 사용하여 NetApp 콘솔에서 StorageGRID 시스템
 [role="lead"]
 고급 보기를 사용하여 콘솔에서 StorageGRID 시스템을 관리합니다.  이 보기를 사용하면 콘솔에서 Grid Manager를 사용할 수 있습니다.
 
-.필요한 NetApp 콘솔 역할:
+.필요한 NetApp Console 역할:
 스토리지 관리자 또는 시스템 상태 전문가.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["액세스 역할에 대해 알아보세요."^]
 
 

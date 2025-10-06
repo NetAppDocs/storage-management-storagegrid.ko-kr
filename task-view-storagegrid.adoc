@@ -16,8 +16,8 @@ summary: StorageGRID 시스템을 검색한 후에는 용량 분포와 관련 �
 [role="lead"]
 StorageGRID 시스템을 검색한 후에는 용량 분포와 관련 알림, 노드, 테넌트에 대한 세부 정보를 볼 수 있습니다.
 
-.필요한 NetApp 콘솔 역할:
-스토리지 관리자 또는 시스템 상태 전문가.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetApp 콘솔 액세스 역할에 대해 알아보세요."^]
+.필요한 NetApp Console 역할:
+스토리지 관리자 또는 시스템 상태 전문가.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetApp Console 액세스 역할에 대해 알아보세요."^]
 
 .단계
 . 탐색 메뉴에서 *저장소 > 관리*를 선택합니다.

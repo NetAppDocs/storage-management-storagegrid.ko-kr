@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="doc">StorageGRID 지원</block>
+  <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">이제 BlueXP 에서 바로 StorageGRID 시스템을 검색할 수 있습니다.  StorageGRID 사용하면 하이브리드 멀티클라우드 전반의 데이터를 완벽하게 볼 수 있습니다.</block>
+  <block id="9e171afa6c3124020f16e21de1c7b2f4" category="doc">새로운 고급 보기</block>
+  <block id="0f58e681c3f3ea59c830353dd632a86c" category="paragraph">StorageGRID 11.8부터 익숙한 Grid Manager 인터페이스를 사용하여 BlueXP 에서 StorageGRID 시스템을 관리할 수 있습니다.</block>
+  <block id="af7b48fef3ac95547bce2972839785af" category="inline-link">고급 보기를 사용하여 StorageGRID 관리하는 방법을 알아보세요.</block>
+  <block id="71bde38d3a1a0761ad0419a2db79d0c4" category="paragraph"><block ref="bcae03490ee8ad952aee993e2ae5e7eb" category="inline-link-rx"></block> .</block>
+  <block id="04862482c3a7e313dee1294875d76a61" category="section-title">StorageGRID 관리 인터페이스 인증서를 검토하고 승인하는 기능</block>
+  <block id="7ef5c031e9bd4c1394a8093c50afe4e2" category="paragraph">이제 BlueXP 에서 StorageGRID 시스템을 검색할 때 StorageGRID 관리 인터페이스 인증서를 검토하고 승인할 수 있습니다.  검색된 그리드에서 최신 StorageGRID 관리 인터페이스 인증서를 검토하고 승인할 수도 있습니다.</block>
+  <block id="4a314d3b77101d6faf44fa4063c45276" category="inline-link">시스템 검색 중에 서버 인증서를 검토하고 승인하는 방법을 알아보세요.</block>
+  <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
+  <block id="2bef154766331bbaacbab995f24ef0c2" category="doc">BlueXP 액세스 역할이 필요합니다</block>
+  <block id="fd3b9b6f969e334605ecb2deacbd84cc" category="inline-link-macro">BlueXP 액세스 역할에 대해 알아보세요.</block>
+  <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">이제 BlueXP 에서 StorageGRID 보거나 검색하거나 관리하려면 다음 액세스 역할 중 하나가 필요합니다. *조직 관리자*, *폴더 또는 프로젝트 관리자*, *스토리지 관리자* 또는 *스토리지 상태 전문가*.<block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP 는 이제 NetApp Console 입니다.</block>
+  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">강화되고 재구성된 BlueXP 기반을 기반으로 구축된 NetApp Console 엔터프라이즈급 온프레미스 및 클라우드 환경에서 NetApp 스토리지와 NetApp Data Services 중앙에서 관리하여 실시간 통찰력, 더 빠른 워크플로, 간소화된 관리를 제공하며, 높은 보안성과 규정 준수를 보장합니다.</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetApp Console 릴리스 노트</block>
+  <block id="800c173937521899b70a4ab5d735d3d7" category="paragraph">변경된 사항에 대한 자세한 내용은 다음을 참조하세요.<block ref="b78e17cf58c4e309929c8d6a69594c7d" category="inline-link-macro-rx"></block> .</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지 사항</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지사항은 저작권 표시, 상표, 특허 등에 대한 정보를 제공합니다.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP, NETAPP 로고 및 NetApp 상표 페이지에 나열된 마크는 NetApp, Inc.의 상표입니다. 다른 회사 및 제품 이름은 해당 소유자의 상표일 수 있습니다.</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">특허</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp 이 소유한 현재 특허 목록은 다음에서 확인할 수 있습니다.</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인정보 보호정책</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈소스</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">공지 파일은 NetApp 소프트웨어에서 사용되는 타사 저작권 및 라이선스에 대한 정보를 제공합니다.</block>
+  <block id="50dbf63cd0ab8144a287e5cd6a0f1de2" category="inline-link">NetApp Console 에 대한 알림</block>
+  <block id="c87093fc5ce0aab848deaeae14c761b9" category="list-text"><block ref="c87093fc5ce0aab848deaeae14c761b9" category="inline-link-rx"></block></block>
+  <block id="f79ebde6a1a4f17ac930ceaedb344ad5" category="inline-link-macro">StorageGRID 시스템의 NetApp Console 관리에 대한 알림</block>
+  <block id="411334f05b81714b2d8f3d3bc5ae0a2e" category="list-text"><block ref="411334f05b81714b2d8f3d3bc5ae0a2e" category="inline-link-macro-rx"></block></block>
+  <block id="34515f1d88b10d0db0a78eba6c533394" category="summary">알려진 문제는 이 제품 릴리스를 성공적으로 사용하는 데 방해가 될 수 있는 문제를 나타냅니다.</block>
+  <block id="63c43c1298dbd351ea9b45ab7bf8b811" category="doc">NetApp Console 에서 StorageGRID 관리하는 데 알려진 문제</block>
+  <block id="26e1ae357ea5f677dc708693f63d2234" category="section-title">업데이트된 표시 이름이 NetApp Console 에 나타나지 않습니다.</block>
+  <block id="c5bdd83865407be8b653c1cd7dcd9571" category="paragraph">사이트나 그리드에 대한 새 표시 이름을 정의하기 위해 이름 바꾸기 절차를 사용하는 경우, 새 표시 이름은 NetApp Console 에 반영되지 않습니다.  NetApp Console 내에서 시스템은 새로운 표시 이름이 아닌 시스템 이름을 계속 표시합니다.</block>
+  <block id="4184c004c3d306eac4540e4aefb2f6a9" category="section-title">알림 필터링 중 오류 발생</block>
+  <block id="57e6970cf13aa98ffd7faf72c61853bb" category="paragraph">고급 보기를 사용할 때 알림 페이지의 내용을 필터링하면 오류가 발생합니다.</block>
+  <block id="1998a0486c5c4169c29f007cc908c1d7" category="section-title">그리드 연합 연결을 편집하는 동안 오류가 발생했습니다.</block>
+  <block id="5094a282c5a9bba09561ad9a388f91c5" category="paragraph">고급 보기를 사용하는 경우 그리드 페더레이션 연결을 편집할 때 게이트웨이 시간 초과 오류가 발생할 수 있습니다.</block>
+  <block id="27239bc2e8ca18aae4bd57bf98d64a93" category="summary">고급 보기를 사용하여 NetApp Console 에서 StorageGRID 시스템을 관리합니다.  이 보기를 사용하면 NetApp Console 내에서 Grid Manager를 사용할 수 있습니다.</block>
+  <block id="e11189f51e944c56ae93486d4b5db590" category="doc">NetApp Console 의 Grid Manager를 사용하여 StorageGRID 관리</block>
+  <block id="d5c34e6c10be47a51e62aadafb90e8f8" category="paragraph">고급 보기를 사용하여 콘솔에서 StorageGRID 시스템을 관리합니다.  이 보기를 사용하면 콘솔에서 Grid Manager를 사용할 수 있습니다.</block>
+  <block id="f3d96e033470d8fb9d043aed29754d44" category="paragraph-title">필요한 NetApp Console 역할:</block>
+  <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">액세스 역할에 대해 알아보세요.</block>
+  <block id="647e72c68ac2b108fc4f872a4408d77a" category="paragraph">스토리지 관리자 또는 시스템 상태 전문가.<block ref="5a4d408bd57f7cf7efbd6cf878c737a7" category="inline-link-macro-rx"></block></block>
+  <block id="1f0b82560627b660c6c6958a1df834b8" category="section-title">지원되는 구성</block>
+  <block id="82f590009d4efe1d732fe71c4acb2ae2" category="paragraph">Grid Manager는 StorageGRID 11.8부터 콘솔에서 사용할 수 있습니다.</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">제한 사항</block>
+  <block id="faf4d707a11bae8eab65893c9e387e8f" category="paragraph">다음 Grid Manager 작업은 콘솔에서 사용할 수 없습니다.  이러한 작업을 수행해야 하는 경우 Grid Manager에 직접 로그인하세요.</block>
+  <block id="e56c7ead55fc1e5f499eae95a4a912b3" category="cell">그리드 관리자 메뉴</block>
+  <block id="5156295a022e21df95e1e260394ee411" category="cell">콘솔에서 사용할 수 없는 작업</block>
+  <block id="8f9bfe9d1345237cb3b2b205864da075" category="paragraph">사용자</block>
+  <block id="f37627b09b882611b44ff399a9c378e9" category="list-text">로그아웃 링크</block>
+  <block id="baeaf581efec254c255d808076ebb8b5" category="list-text">API 문서 링크</block>
+  <block id="0b39c5aca15b84b1ad53a94d6b3feb78" category="list-text">비밀번호 변경</block>
+  <block id="187c6ad3a74cc93ac6c2229d398e383e" category="paragraph">노드</block>
+  <block id="3a4d215d512d4ae5edd991d81bf9972e" category="list-text">노드 &gt; SANtricity System Manager 탭에서 SANtricity System Manager에 액세스할 수 없습니다.</block>
+  <block id="97e48133192510ab2ce4a4c7af40d7c1" category="list-text">알림을 볼 때 권장 작업의 모든 링크를 선택하지 못할 수 있습니다.  예를 들어, 지원되지 않는 Grid Manager 페이지로 이동하는 링크는 작동하지 않습니다.</block>
+  <block id="ab46b0da4c689d676afbc74038c40f71" category="paragraph">세입자</block>
+  <block id="52e8a870e31fcf345b37b10609383a35" category="paragraph">테넌트 생성 마법사나 테넌트 페이지에서 테넌트 계정에 로그인할 수 없습니다.</block>
+  <block id="ec823db65eff78b29b3aa37df2c9117a" category="paragraph">현재 콘솔은 테넌트 관리자를 지원하지 않습니다.  콘솔에서 새로운 테넌트 계정을 만들 수는 있지만 테넌트 사용자는 콘솔에서 자신의 계정에 로그인할 수 없습니다.</block>
+  <block id="45a63ab8cbf11a8d14e5315e7199fcbd" category="paragraph">일엠엠</block>
+  <block id="d1760d83776d2cad4f596e5fbdca7031" category="paragraph">저장 등급 링크</block>
+  <block id="254f642527b45bc260048e30704edb39" category="paragraph">구성</block>
+  <block id="8e8a68d187d0714e364a531fe90c3e48" category="list-text">그리드 비밀번호</block>
+  <block id="4e4b4ed3fd3d46ee1adfbe44d5d59f43" category="list-text">트래픽 분류 &gt; 메트릭</block>
+  <block id="a48031b9725d4cf40505c76b9f1639b6" category="list-text">보안 설정 &gt; 브라우저 비활성 시간 초과</block>
+  <block id="f349dbd269e091419d25308532e10fa9" category="list-text">단일 로그인</block>
+  <block id="ca0fa3abc1c867e840da53c9362947e0" category="list-text">SNMP 에이전트 &gt; BMC 인터페이스용 MIB 파일</block>
+  <block id="10d0de28911c5f66463b9c8783f8148a" category="paragraph">유지</block>
+  <block id="1c099fee7c6387b021909926b4fbcf98" category="list-text">복구 패키지</block>
+  <block id="c329847c5a9eb54120dcc6a37e7688cd" category="list-text">소프트웨어 업데이트</block>
+  <block id="db5eb84117d06047c97c9a0191b5fffe" category="paragraph">지원하다</block>
+  <block id="18e8755b803a7bb837ea9fdd4a198fcf" category="list-text">그리드 토폴로지</block>
+  <block id="b2d37ae1cedf42ff874289b721860af2" category="list-text">로그</block>
+  <block id="e3c28fcb661163dc6895b75c04f2efd7" category="list-text">UI의 다른 위치에서 Prometheus 메트릭과 Grafana 대시보드에 대한 모든 링크를 포함한 메트릭입니다.</block>
+  <block id="398728716b4e5021932fed1c2a8ebeb8" category="list-text">레거시 알람에 대한 모든 옵션</block>
+  <block id="62e734353c5cfd6023d970172d9908a9" category="list-text">링크 비용</block>
+  <block id="5afeba0bd099057d2f768c19f06ec2da" category="list-text">NMS 엔터티</block>
+  <block id="3862c7ad20b0923cf8f9b1be9e028f11" category="section-title">고급 보기로 전환</block>
+  <block id="4fd2f0ed2a27d6ecfe750ed0f462f569" category="paragraph">StorageGRID 시스템을 열고 고급 보기 옵션을 선택합니다.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
+  <block id="f244da7e15f3999df2831b63141e093f" category="list-text">*시스템* 페이지에서 StorageGRID 시스템을 엽니다.</block>
+  <block id="692e1e106333597b5a86044f5e0af539" category="list-text">오른쪽 상단에서 *고급 보기로 전환*을 선택하세요.</block>
+  <block id="4b233cf02f1889c420108e8345cc0030" category="list-text">Grid Manager를 사용하여 StorageGRID 시스템을 관리하세요.</block>
+  <block id="b7271b5e81c9ac4c11c4746d6b80a538" category="list-text">필요한 경우 콘솔을 통해 표준 보기로 돌아가려면 표준 보기로 전환을 선택하세요.</block>
+  <block id="e5e3035b0f7e5a2843ab139092d0b6fa" category="section-title">Grid Manager에 대한 도움말 받기</block>
+  <block id="3778f3873debfe11e2ace6bb6af1e417" category="inline-link">StorageGRID 문서</block>
+  <block id="e05b3769a3e17ad902ca3ef85360d7f9" category="paragraph">Grid Manager 사용에 도움이 필요하면 다음을 참조하세요.<block ref="a933c7261fbaa2ef6900890d35e68b11" category="inline-link-rx"></block> 단계별 지침을 확인하세요.</block>
+  <block id="d151acbef027ea9883e40b32274c5a04" category="summary">온프레미스 환경에서 StorageGRID 시스템을 검색한 다음 Grid Manager를 사용하여 NetApp Console 에서 직접 관리하세요.</block>
+  <block id="c10ae48739661aebcdebc04124762406" category="doc">NetApp Console 에 StorageGRID 시스템 추가</block>
+  <block id="5034e08cdc3b4865f67cdf020c27269b" category="paragraph">Grid Manager를 사용하여 NetApp Console 에서 직접 StorageGrid 시스템을 관리하세요.</block>
+  <block id="dbbc09735940a2a21109b74dc600b92b" category="inline-link-macro">NetApp Console 액세스 역할에 대해 알아보세요.</block>
+  <block id="6fd600090915668444ea7d162325adc5" category="paragraph">스토리지 관리자 또는 시스템 상태 전문가.<block ref="df85ea2f8ea618bf5b67be06e51eaa48" category="inline-link-macro-rx"></block></block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">시작하기 전에</block>
+  <block id="4c6a9048ac276eb9391ebe2abd8e0c0d" category="paragraph">다음이 필요합니다.</block>
+  <block id="d4a6e71a69daabc670296b6e5d940bcf" category="inline-link">귀하의 조직 관리자에게 문의하세요.</block>
+  <block id="f989c70e8b10ec6677c8508c4ad6716d" category="list-text">버전 3.9.43 이상을 사용하는 NetApp Console 에이전트.  콘솔 에이전트를 설치하려면 조직 관리자 역할이 있어야 합니다.  귀하의 조직에 콘솔 에이전트가 있는지 확실하지 않거나 콘솔 에이전트를 만들어야 하는 경우 NetApp Console 관리자에게 문의하세요.<block ref="765570b937b73d16d7ea0af9aecd0128" category="inline-link-rx"></block></block>
+  <block id="8ed6fea4723099b9cd21d8f577ab8fb6" category="list-text">관리 노드의 도메인 이름 또는 IP 주소입니다.</block>
+  <block id="cdf740c7139af2d388c8083334061fa1" category="list-text">관리자 노드에 대한 관리자 자격 증명입니다.</block>
+  <block id="7946381c1469da9982f0ec23675e074e" category="list-text">StorageGRID 시스템에 관리 인터페이스 인증서가 설치되었습니다.</block>
+  <block id="899334f483a8eb1e661e504ffe749109" category="inline-link">StorageGRID 에 관리 인터페이스 인증서를 설치하는 방법에 대해 자세히 알아보세요.</block>
+  <block id="29f8a7fdcc1561634392c06486db3526" category="paragraph"><block ref="29f8a7fdcc1561634392c06486db3526" category="inline-link-rx"></block></block>
+  <block id="c27deb5ada399336a287848889d2032c" category="list-text">탐색 메뉴에서 *저장소 &gt; 관리*를 선택합니다.</block>
+  <block id="a2bbc305e061bf1ea8c419672c377672" category="list-text">*시스템*을 선택하세요.</block>
+  <block id="5211458073f915c9abf57481c61698ad" category="list-text">*시스템 추가*를 선택하고 *온프레미스*를 선택합니다.</block>
+  <block id="c1337bb911d61c7e24f0143c98280728" category="list-text">* StorageGRID* 옆에서 *Discover*를 선택합니다.</block>
+  <block id="8cf19817e4e7fd9da0b6ce8acdb567b7" category="list-text">콘솔의 _StorageGRID 클러스터 세부 정보_ 페이지에서 관리 노드의 도메인 이름 또는 IP 주소, 노드의 자격 증명을 입력한 다음 *추가*를 선택합니다.</block>
+  <block id="c11467c66c9d20aefade3d8c6a472be6" category="list-text">콘솔은 자동으로 StorageGRID 관리 인터페이스 인증서를 검색합니다.  _인증서 승인_ 페이지에서 인증서 세부 정보를 검토합니다.</block>
+  <block id="b7b06656b02cb84d84e7f79e844f69e6" category="list-text">다른 인증서를 사용하려면 먼저 StorageGRID 시스템에 인증서를 설정하세요.</block>
+  <block id="fd6ef625f97076ff9598106b60195180" category="inline-link">StorageGRID 에 관리 인터페이스 인증서 설치</block>
+  <block id="7ca143532806a5c7adafe28564a2076a" category="list-text">온프레미스 StorageGRID 시스템에서 다음 지침을 따르세요.<block ref="0cf12816ab392319fa8fa5ca90f97c92" category="inline-link-rx"></block> .</block>
+  <block id="9d802d0448e390fa63540342de811f28" category="list-text">StorageGRID 시스템에서 인증서를 구성한 후 콘솔의 _인증서 승인_ 페이지에서 *취소*를 선택합니다.</block>
+  <block id="9ae82cb65355b4df3873a1db559ff935" category="list-text">_StorageGRID 클러스터 세부 정보_ 페이지에서 *추가*를 선택합니다.</block>
+  <block id="f366bb321d887c34c28635516c2e2a3f" category="list-text">선택적으로 *증명서 복사*를 선택하여 증명서 세부 정보를 복사합니다.  원하는 경우 인증서 세부 정보를 사용하여 추가 검증을 수행할 수 있습니다.</block>
+  <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">다음 중 하나를 수행하세요.</block>
+  <block id="45423c15c9f7fc300b5c31e290fcb524" category="list-text">인증서를 사용하려면 *인증서 승인*을 선택하세요.</block>
+  <block id="1ca040430e0978a3f2d4ae1c17bbc8b5" category="paragraph">NetApp Console 성공 메시지를 표시하고 승인된 인증서를 검증하여 StorageGRID 서버와 콘솔 에이전트 간의 모든 통신을 보호합니다.</block>
+  <block id="57451516de60f65a613633c72a543441" category="list-text">인증서를 확인하지 않고 검색 프로세스를 종료하려면 *취소*를 선택하세요.</block>
+  <block id="8573a317227bda2e8dcf6245b9035011" category="paragraph">예를 들어, StorageGRID 관리 인증서를 업데이트해야 한다는 오류 메시지가 나타나면 *취소*를 선택할 수 있습니다.</block>
+  <block id="0dc9de1471d80fc98eb6b0151fafbffa" category="paragraph">인증서를 업데이트하려면 StorageGRID 시스템으로 이동하여 인증서를 업데이트한 다음 NetApp Console 에서 검색 프로세스를 다시 시작하세요.</block>
+  <block id="4209bb3c02890580b6466f7208bac3aa" category="summary">NetApp Console 에서 StorageGRID 시스템을 발견하면 NetApp의 데이터 서비스를 사용하여 백업, 데이터 계층화 및 데이터 동기화를 수행할 수 있습니다.</block>
+  <block id="4d59e76f3a0fb15954592256790b7f7e" category="doc">StorageGRID 와 함께 NetApp 데이터 서비스 사용</block>
+  <block id="2cc401acf1743eee8bd1261bef16ae50" category="paragraph">NetApp Console 에서 StorageGRID 시스템을 발견하면 NetApp 데이터 서비스를 사용하여 백업, 데이터 계층화 및 데이터 동기화를 수행할 수 있습니다.</block>
+  <block id="a904ec7788dd2ecae857966472095d9f" category="list-text">NetApp Backup and Recovery 사용하면 온프레미스 ONTAP 시스템의 데이터를 NetApp StorageGRID 시스템의 개체 스토리지로 백업할 수 있습니다.</block>
+  <block id="fb1b3179d6c46954a36b92cac0736222" category="paragraph">시작하려면 *시스템* 페이지로 이동하여 온프레미스 ONTAP 시스템을 StorageGRID 시스템으로 끌어다 놓으세요.</block>
+  <block id="a4304a5e5ad0523cd1e2516efcbb04ea" category="inline-link">온프레미스 ONTAP 데이터를 StorageGRID 에 백업하는 방법에 대해 자세히 알아보세요.</block>
+  <block id="9e5b68fb5027979545709db9c86c496d" category="paragraph"><block ref="9e5b68fb5027979545709db9c86c496d" category="inline-link-rx"></block></block>
+  <block id="04affab1cdd3516658ad652fcfaf5a44" category="list-text">NetApp Cloud Tiering 사용하면 온프레미스 ONTAP 클러스터에서 비활성 데이터를 StorageGRID 로 자동으로 계층화할 수 있습니다.</block>
+  <block id="a7b3ca6a800aa86763c04f7fff5c0f0c" category="paragraph">시작하려면 *시스템* 페이지로 이동하여 온프레미스 ONTAP 시스템을 StorageGRID 시스템으로 끌어다 놓으세요.</block>
+  <block id="39759be047cc5c7c6c37b3a3c14c7616" category="inline-link">온프레미스 ONTAP 클러스터에서 StorageGRID 로 데이터 계층화에 대해 자세히 알아보세요.</block>
+  <block id="f2c38058631be40aaf2ca546dedb5828" category="paragraph"><block ref="f2c38058631be40aaf2ca546dedb5828" category="inline-link-rx"></block></block>
+  <block id="d84ae9c5fee4a20424a50b491bf9ca94" category="list-text">NetApp Copy and Sync 사용하여 StorageGRID 시스템과 데이터를 동기화합니다.</block>
+  <block id="d95e5db4ff301d281f0779f0048181e8" category="paragraph">시작하려면 *시스템* 페이지로 가서 소스 시스템을 대상 시스템으로 끌어다 놓으세요.  StorageGRID 소스 또는 대상이 될 수 있습니다.</block>
+  <block id="3759d89c909b76c79aaa28ed2ce4306a" category="inline-link">NetApp Copy and Sync 에 대해 자세히 알아보세요</block>
+  <block id="cab10d8498bc6058193227ca80c2484e" category="paragraph"><block ref="cab10d8498bc6058193227ca80c2484e" category="inline-link-rx"></block></block>
+  <block id="a99fab69b8aa9775fe1767ce605ae8bd" category="summary">NetApp 다양한 방법으로 NetApp Console 에 대한 지원을 제공합니다. 지식 기반(KB) 문서와 커뮤니티 포럼 등 광범위한 무료 셀프 지원 옵션을 연중무휴 24시간 이용할 수 있습니다. 지원 등록 시 웹 티켓팅을 통한 원격 기술 지원이 제공됩니다.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으세요</block>
+  <block id="2feeca48692986e9cc471ec61f847fca" category="paragraph">NetApp 다양한 방법으로 NetApp Console 과 클라우드 서비스에 대한 지원을 제공합니다. 지식 기반(KB) 문서와 커뮤니티 포럼 등 광범위한 무료 셀프 지원 옵션을 24시간 연중무휴로 이용할 수 있습니다. 지원 등록 시 웹 티켓팅을 통한 원격 기술 지원이 제공됩니다.</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">클라우드 공급자 파일 서비스에 대한 지원을 받으세요</block>
+  <block id="317cbd2c4fdbfd06a6c66bcd3f57d7ad" category="paragraph">클라우드 공급자 파일 서비스, 해당 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원에 대해서는 해당 제품의 설명서를 참조하세요.</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">ONTAP 용 Amazon FSx</block>
+  <block id="359d8b16e442ffaa72e03c95fcd60448" category="list-text"><block ref="359d8b16e442ffaa72e03c95fcd60448" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="153836c062a78213f2aa165322254aa4" category="list-text"><block ref="153836c062a78213f2aa165322254aa4" category="inline-link-macro-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="0d592360c983f234b130127efee38805" category="list-text"><block ref="0d592360c983f234b130127efee38805" category="inline-link-macro-rx"></block></block>
+  <block id="68e6fe8cde496154d24fd032b4262070" category="paragraph">NetApp 과 해당 스토리지 솔루션, 데이터 서비스에 대한 특정 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하세요.</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">셀프 지원 옵션 사용</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">다음 옵션은 주 7일, 하루 24시간 무료로 이용 가능합니다.</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">설명서</block>
+  <block id="5bb94d173380c00577f5e04b6f26bb94" category="paragraph">현재 보고 있는 NetApp Console 문서입니다.</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">지식 기반</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="0e20091afcea2d83d0033a933ba85092" category="paragraph">NetApp 지식 기반을 검색하여 문제 해결에 도움이 되는 문서를 찾아보세요.</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">커뮤니티</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="777d75a90b107e4f18469f82c4f81fe2" category="paragraph">NetApp Console 커뮤니티에 가입하여 진행 중인 토론을 팔로우하거나 새로운 토론을 만들어 보세요.</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">NetApp 지원을 통해 사례 만들기</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">위에 나열된 셀프 지원 옵션 외에도, 지원을 활성화한 후 NetApp 지원 전문가와 협력하여 문제를 해결할 수 있습니다.</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">시작하기 전에</block>
+  <block id="c406bf0ac8ac87bc5bb7132a7351b2ae" category="inline-link">콘솔 로그인과 관련된 자격 증명을 관리하는 방법을 알아보세요.</block>
+  <block id="377118f28487e70bd456993144b72fc7" category="list-text">*사례 만들기* 기능을 사용하려면 먼저 NetApp 지원 사이트 자격 증명을 콘솔 로그인과 연결해야 합니다.<block ref="68c4321a756e3ffe955b62cff6fea46d" category="inline-link-rx"></block> .</block>
+  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">일련 번호가 있는 ONTAP 시스템에 대한 사례를 개설하는 경우 NSS 계정은 해당 시스템의 일련 번호와 연결되어야 합니다.</block>
+  <block id="0ab80a63088581d58dcf067051f4c894" category="list-text">NetApp Console 에서 *도움말 &gt; 지원*을 선택합니다.</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">*리소스* 페이지에서 기술 지원 아래에 있는 사용 가능한 옵션 중 하나를 선택하세요.</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">전화로 상담원과 통화하고 싶으시면 *전화하기*를 선택하세요. netapp.com에서 전화할 수 있는 전화번호가 나열된 페이지로 이동하게 됩니다.</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">NetApp 지원 전문가에게 티켓을 열려면 *사례 만들기*를 선택하세요.</block>
+  <block id="a1123cd59d7bd876c080c33906ae65ce" category="list-text">*서비스*: 문제와 관련된 서비스를 선택하세요. 예를 들어, * NetApp Console*은 콘솔 내 워크플로 또는 기능과 관련된 기술 지원 문제에 대한 구체적인 내용입니다.</block>
+  <block id="987df7518e2afb50a860647c832afd13" category="list-text">*시스템*: 스토리지에 해당되는 경우 * Cloud Volumes ONTAP* 또는 *온프레미스*를 선택한 다음 연관된 작업 환경을 선택합니다.</block>
+  <block id="8f8e8a86e5f52b6186a37bdf266c4320" category="paragraph">시스템 목록은 콘솔 조직 범위 내에 있으며, 상단 배너에서 선택한 콘솔 에이전트입니다.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*사례 우선순위*: 낮음, 보통, 높음 또는 중요로 사례의 우선순위를 선택합니다.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">이러한 우선순위에 대한 자세한 내용을 알아보려면 필드 이름 옆에 있는 정보 아이콘 위에 마우스를 올려놓으세요.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*문제 설명*: 해당 오류 메시지나 수행한 문제 해결 단계를 포함하여 문제에 대한 자세한 설명을 제공하세요.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*추가 이메일 주소*: 이 문제를 다른 사람에게 알리려면 추가 이메일 주소를 입력하세요.</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*첨부파일(선택사항)*: 최대 5개의 첨부파일을 한 번에 하나씩 업로드하세요.</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">첨부파일은 파일당 25MB로 제한됩니다. 다음 파일 확장자가 지원됩니다: txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx, csv.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">NetApp 지원팀에 사례를 생성할 수 있는 사례 생성 양식의 스크린샷입니다.</block>
+  <block id="77c89527ec8a9f89b24c5579d19b3b4b" category="paragraph"><block ref="77c89527ec8a9f89b24c5579d19b3b4b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">당신이 완료한 후</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">지원 사례 번호가 포함된 팝업이 나타납니다. NetApp 지원 전문가가 귀하의 사례를 검토하고 곧 연락드릴 것입니다.</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">지원 사례 기록을 보려면 *설정 &gt; 타임라인*을 선택하고 "지원 사례 만들기"라는 이름의 작업을 찾으세요. 가장 오른쪽에 있는 버튼을 누르면 동작을 확장하여 자세한 내용을 볼 수 있습니다.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">사례를 생성하려고 할 때 다음과 같은 오류 메시지가 나타날 수 있습니다.</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"선택한 서비스에 대해 사례를 생성할 권한이 없습니다."</block>
+  <block id="178fdaf97b1d1577437f11ee9d5e5229" category="paragraph">이 오류는 NSS 계정과 해당 계정과 연결된 기록상 회사가 NetApp Console 계정 일련 번호에 대한 기록상 회사와 동일하지 않다는 것을 의미할 수 있습니다(예: 960xxxx) 또는 작업 환경 일련 번호. 다음 옵션 중 하나를 사용하여 도움을 요청할 수 있습니다.</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">비기술적 사례를 제출하세요<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="e1100b46295d42ed50ba7a4630710164" category="section-title">지원 사례 관리</block>
+  <block id="316508a3483178100806a9d44b49aba2" category="paragraph">콘솔에서 직접 활성화된 지원 사례와 해결된 지원 사례를 보고 관리할 수 있습니다. 귀하의 NSS 계정 및 회사와 관련된 사례를 관리할 수 있습니다.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하세요.</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">페이지 상단의 사례 관리 대시보드는 두 가지 보기를 제공합니다.</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">왼쪽 보기는 귀하가 제공한 NSS 계정 사용자에 의해 지난 3개월 동안 열린 총 사례를 보여줍니다.</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">오른쪽 보기는 사용자 NSS 계정을 기준으로 지난 3개월 동안 회사 수준에서 열린 총 사례를 보여줍니다.</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">표의 결과는 귀하가 선택한 보기와 관련된 사례를 반영합니다.</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">관심 있는 열을 추가하거나 제거할 수 있으며, 우선순위 및 상태와 같은 열의 내용을 필터링할 수 있습니다. 다른 열은 정렬 기능만 제공합니다.</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">자세한 내용은 아래 단계를 참조하세요.</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">사례별로 사례 메모를 업데이트하거나 아직 닫힘 또는 닫힘 보류 상태가 아닌 사례를 닫는 기능을 제공합니다.</block>
+  <block id="9163e8bca6fd93c080d35ab49e3efdfa" category="list-text">NetApp Console 에서 *도움말 &gt; 지원*을 선택합니다.</block>
+  <block id="2019fd19051c3ef493dbbb9ca65bab87" category="list-text">*사례 관리*를 선택하고 메시지가 표시되면 콘솔에 NSS 계정을 추가합니다.</block>
+  <block id="75e54e3a6fdbf43ed890669e079d7594" category="paragraph">*사례 관리* 페이지는 콘솔 사용자 계정과 연결된 NSS 계정과 관련된 미해결 사례를 표시합니다. 이는 *NSS 관리* 페이지 상단에 표시되는 NSS 계정과 동일합니다.</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">필요에 따라 표에 표시되는 정보를 수정합니다.</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">*조직 사례*에서 *보기*를 선택하면 회사와 관련된 모든 사례를 볼 수 있습니다.</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">정확한 날짜 범위를 선택하거나 다른 기간을 선택하여 날짜 범위를 수정하세요.</block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">열의 내용을 필터링합니다.</block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">표에 나타나는 플러스 아이콘</block>
+  <block id="8ac6be88c1aa79062825a147fb263b0e" category="list-text">표에 나타나는 열을 변경하려면 다음을 선택하세요.<block ref="500a336e7ba1c54bcffba4e27bda4eb6" category="inline-image-macro-rx" type="image"></block> 그런 다음 표시하려는 열을 선택합니다.</block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">표의 마지막 열에 나타나는 세 개의 점이 있는 아이콘</block>
+  <block id="049b7b9fab1242f5e715952973c9474d" category="list-text">기존 사례를 선택하여 관리하세요.<block ref="7381d9baeaf62eb099ce84f1a21ed5ca" category="inline-image-macro-rx" type="image"></block> 그리고 사용 가능한 옵션 중 하나를 선택하세요:</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*사례 보기*: 특정 사례에 대한 전체 세부 정보를 확인하세요.</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*사례 메모 업데이트*: 문제에 대한 추가 세부 정보를 제공하거나 *파일 업로드*를 선택하여 최대 5개의 파일을 첨부하세요.</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*사건 종결*: 사건을 종결하는 이유를 자세히 입력하고 *사건 종결*을 선택하세요.</block>
+  <block id="1c0cf398fca729802189afd04195daca" category="summary">인증서는 만료될 수 있으므로 가끔 인증서 상태를 확인하거나 업데이트해야 할 수도 있습니다.</block>
+  <block id="dd0d36f89a15258549e13613858361ef" category="doc">NetApp Console 에서 StorageGRID 인증서 보기 및 업데이트</block>
+  <block id="5327d9fc450204dcc46442e6725edae3" category="paragraph">NetApp Console 에서 시스템을 검색하려면 먼저 StorageGRID 시스템에 관리 인터페이스 인증서가 필요합니다.  인증서는 콘솔과 StorageGRID 간의 보안 연결을 제공합니다.  인증서는 만료될 수 있으므로 가끔 인증서 상태를 확인하거나 업데이트해야 할 수도 있습니다.</block>
+  <block id="c770cc35592d37d6c613acd34268446d" category="paragraph">저장소 관리자.<block ref="df85ea2f8ea618bf5b67be06e51eaa48" category="inline-link-macro-rx"></block></block>
+  <block id="fbd54ca9d42fc0afdb26c5c699c8e55e" category="section-title">관리 인터페이스 인증서 상태 보기</block>
+  <block id="ac2871047714af92edb3022cb27acb51" category="paragraph">StorageGRID 시스템의 관리 인터페이스 인증서 상태를 보고 인증서가 여전히 유효한지 확인하세요.</block>
+  <block id="d98db4acfa58dea7d268506b66ad6e71" category="list-text">*시스템* 페이지에서 StorageGRID 시스템을 선택합니다.</block>
+  <block id="6b3bbbb8c1a9c2cde18108cb407d12b1" category="list-text">표준 보기에서 페이지 오른쪽의 _정보_ 창 하단에서 사용자 승인 인증서의 상태를 확인하세요.</block>
+  <block id="5c8aefe50da5e68bac8b7fadb69f27cd" category="admonition">인증서 상태는 24시간마다 새로 고쳐집니다.</block>
+  <block id="ed705c097546086b65ee2918f8c18f93" category="section-title">관리 인터페이스 인증서 업데이트</block>
+  <block id="7119ba4526ce61e0874111f9ae6c8000" category="paragraph">관리 인터페이스 인증서 상태가 유효하지 않거나 인증서가 만료되었다는 알림을 받은 경우 NetApp Console StorageGRID 에 연결할 수 있도록 인증서를 업데이트해야 합니다.</block>
+  <block id="4b4e284cad41e74d772677e47ccbf432" category="list-text">StorageGRID 의 온프레미스 Grid Manager로 이동하여 지침을 따르세요.<block ref="e4a1425c9a71162659bfbfada9a25737" category="inline-link-rx"></block> .</block>
+  <block id="1155fb969d9717092513d154149e1f78" category="list-text">NetApp Console 탐색 메뉴에서 *스토리지 &gt; 관리*를 선택합니다.</block>
+  <block id="40540158a277d365081d54ce377ee023" category="list-text">더 많은 옵션 아이콘(세 개의 수직 점이 있는 원)을 선택하세요.</block>
+  <block id="9769a2363939e90bde7efa3d07411abc" category="inline-image-macro">업데이트 메뉴의 스크린샷입니다.</block>
+  <block id="37ed989771f3eef279909a198294f53c" category="paragraph"><block ref="37ed989771f3eef279909a198294f53c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="de70401c3464a4edf8505f4b7a4258de" category="list-text">*인증서 업데이트*를 선택하세요.</block>
+  <block id="434da4cffed06e08c23765d021db1afc" category="list-text">_인증서 승인_ 페이지에서 *인증서 승인*을 선택하여 업데이트된 인증서를 사용합니다.</block>
+  <block id="49332d7ca8fe54f04384a507c81221de" category="summary">더 이상 NetApp Console 에서 StorageGRID 시스템을 관리하지 않으려면 해당 시스템을 제거하세요.</block>
+  <block id="8fdc9e5c64bdc3bb9a007f8f53050a22" category="doc">StorageGRID 시스템 제거</block>
+  <block id="db34e7c061d99f02326a1c25f6cdf6a9" category="paragraph">콘솔에서 시스템을 제거해도 StorageGRID 시스템에는 영향을 미치지 않습니다.  언제든지 콘솔에 다시 추가할 수 있습니다.</block>
+  <block id="101a4dba130db08f412262b11097db65" category="list-text">표준 보기에서 메뉴 아이콘을 선택하고 *작업 공간에서 제거*를 선택합니다.</block>
+  <block id="b7dd0331ad4ede9488c2fd01dda69e83" category="list-text">*제거*를 선택하여 확인하세요.</block>
+  <block id="df3d826b639dd614f0fae940d9ebee78" category="summary">NetApp 기술 지원팀에 지원 사례를 개설하려면 먼저 NetApp Console 에 NetApp 지원 사이트 계정을 추가한 다음 지원을 위해 등록해야 합니다.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">지원 등록</block>
+  <block id="776abbf4d80cbef17bd3c86ff37b2257" category="paragraph">NetApp Console 과 해당 스토리지 솔루션, 데이터 서비스에 대한 기술 지원을 받으려면 지원 등록이 필요합니다. Cloud Volumes ONTAP 시스템의 주요 워크플로를 활성화하려면 지원 등록도 필요합니다.</block>
+  <block id="ba4e23e03f4354a0f1ef2781272c8477" category="paragraph">지원에 등록해도 클라우드 공급자 파일 서비스에 대한 NetApp 지원은 제공되지 않습니다. 클라우드 공급자 파일 서비스, 해당 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원에 대해서는 해당 제품 설명서의 "도움말 받기"를 참조하세요.</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">지원 자격을 활성화하기 위한 등록 방법은 두 가지가 있습니다.</block>
+  <block id="869a868c87f6fb61410cfd773b4f1bab" category="list-text">NetApp Console 계정 일련 번호를 등록합니다(콘솔의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호).</block>
+  <block id="be0b51de4268d87101344aa0368b4403" category="paragraph">이는 콘솔 내의 모든 서비스에 대한 단일 지원 구독 ID 역할을 합니다. 각 콘솔 계정을 등록해야 합니다.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">클라우드 공급업체의 마켓플레이스에서 구독과 관련된 Cloud Volumes ONTAP 일련 번호를 등록합니다(20자리 909201xxxxxxxx 일련 번호).</block>
+  <block id="3cf9fb70d6921dd90583621f028a395f" category="paragraph">이러한 일련 번호는 일반적으로 _PAYGO 일련 번호_라고 하며 Cloud Volumes ONTAP 배포 시 NetApp Console 에서 생성됩니다.</block>
+  <block id="bf516b6498e37e816d29ae43ae132f74" category="paragraph">두 가지 유형의 일련 번호를 모두 등록하면 지원 티켓 개설 및 자동 사례 생성과 같은 기능을 사용할 수 있습니다. 아래 설명된 대로 콘솔에 NetApp 지원 사이트(NSS) 계정을 추가하여 등록을 완료합니다.</block>
+  <block id="ba5983207e417797fefd5b9374ab4a97" category="section-title">NetApp 지원을 위해 NetApp Console 등록</block>
+  <block id="dcb7105ba6e3d9411b05e726848feb80" category="paragraph">지원을 등록하고 지원 자격을 활성화하려면 NetApp Console 계정의 한 사용자가 NetApp 지원 사이트 계정을 콘솔 로그인과 연결해야 합니다. NetApp 지원에 등록하는 방법은 NetApp 지원 사이트(NSS) 계정이 있는지 여부에 따라 달라집니다.</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSS 계정이 있는 기존 고객</block>
+  <block id="ed5bddb699a442b85bc1bb8e1516fe57" category="paragraph">NSS 계정이 있는 NetApp 고객이라면 콘솔을 통해 지원을 등록하기만 하면 됩니다.</block>
+  <block id="76bc427c3d9c4b81dc353078b942f991" category="list-text">*관리* &gt; *자격 증명*을 선택합니다.</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">*사용자 자격 증명*을 선택하세요.</block>
+  <block id="e9451600769b4bf4b20ca941ba9e6d19" category="list-text">*NSS 자격 증명 추가*를 선택하고 NetApp 지원 사이트(NSS) 인증 프롬프트를 따릅니다.</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">등록 과정이 성공적으로 완료되었는지 확인하려면 도움말 아이콘을 선택하고 *지원*을 선택하세요.</block>
+  <block id="1d4ea9fd10f6cfcd6f6fe1f861d354a4" category="paragraph">*리소스* 페이지에는 귀하의 콘솔 계정이 지원을 위해 등록되어 있다는 내용이 표시됩니다.</block>
+  <block id="afe8240ca62f4b72006980ff64d371b8" category="paragraph">다른 콘솔 사용자는 NetApp 지원 사이트 계정을 로그인과 연결하지 않은 경우 동일한 지원 등록 상태를 볼 수 없습니다. 하지만 그렇다고 해서 귀하의 계정이 지원을 위해 등록되지 않았다는 의미는 아닙니다. 조직 내 한 명의 사용자가 이러한 단계를 따랐다면 귀하의 계정은 등록되었습니다.</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">기존 고객이지만 NSS 계정이 없습니다.</block>
+  <block id="42eaca1e1c2d9e1f04e932eeaa6d129d" category="paragraph">기존 라이선스와 일련 번호는 있지만 NSS 계정이 없는 기존 NetApp 고객인 경우 NSS 계정을 만들고 콘솔 로그인과 연결해야 합니다.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp 지원 사이트 사용자 등록 양식</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">다음을 완료하여 NetApp 지원 사이트 계정을 만드십시오.<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">일반적으로 * NetApp 고객/최종 사용자*인 적절한 사용자 수준을 선택하세요.</block>
+  <block id="bd33c4539c7d6985f6edafd4a4f2ba1d" category="list-text">위에 사용된 콘솔 계정 일련번호(960xxxx)를 일련번호 필드에 꼭 복사해 두세요. 이렇게 하면 계정 처리가 빨라집니다.</block>
+  <block id="9b1f48f88cd439b7a50fe3e76eb8a853" category="list-text">다음 단계를 완료하여 새 NSS 계정을 콘솔 로그인과 연결하세요.<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp 의 새로운 기능</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">NetApp 처음 사용하시고 NSS 계정이 없으신 경우 아래의 각 단계를 따르세요.</block>
+  <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">콘솔의 오른쪽 상단에서 도움말 아이콘을 선택하고 *지원*을 선택하세요.</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">지원 등록 페이지에서 계정 ID 일련 번호를 찾으세요.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">지원이 첫 번째 옵션으로 나열된 도움말 메뉴의 스크린샷</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp 지원 등록 사이트</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">로 이동<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> *저는 등록된 NetApp 고객이 아닙니다*를 선택하세요.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">필수 입력란(빨간색 별표가 있는 항목)을 작성해 주세요.</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">*제품군* 필드에서 *클라우드 관리자*를 선택한 다음 해당 청구 제공자를 선택하세요.</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">위의 2단계에서 계정 일련번호를 복사하고 보안 검사를 완료한 다음 NetApp의 글로벌 데이터 개인정보 보호정책을 읽었는지 확인하세요.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">이 안전한 거래를 마무리하기 위해 제공된 사서함으로 이메일이 즉시 전송됩니다. 몇 분 안에 인증 이메일이 도착하지 않으면 스팸 폴더를 확인하세요.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">이메일 내에서 작업을 확인하세요.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">확인을 클릭하면 귀하의 요청이 NetApp 에 ​​제출되고 NetApp 지원 사이트 계정을 만드는 것이 좋습니다.</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">위에 사용된 계정 일련번호(960xxxx)를 일련번호 필드에 꼭 복사해 두세요. 이렇게 하면 처리 속도가 빨라집니다.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">이 과정에서 NetApp 귀하에게 연락을 드릴 것입니다. 이는 신규 사용자를 대상으로 한 일회성 온보딩 과정입니다.</block>
+  <block id="629757336278be576456cf315303b178" category="paragraph">NetApp 지원 사이트 계정이 있으면 아래 단계를 완료하여 계정을 콘솔 로그인과 연결하세요.<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Cloud Volumes ONTAP 지원을 위한 NSS 자격 증명 연결</block>
+  <block id="f22d1a855e255746a6b925a3b22f7838" category="paragraph">Cloud Volumes ONTAP 에 대한 다음 주요 워크플로를 활성화하려면 NetApp 지원 사이트 자격 증명을 콘솔 계정과 연결해야 합니다.</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">지원을 위해 Pay-as-you-go Cloud Volumes ONTAP 시스템 등록</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">시스템 지원을 활성화하고 NetApp 기술 지원 리소스에 액세스하려면 NSS 계정을 제공해야 합니다.</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">BYOL(Bring Your Own License)을 사용할 때 Cloud Volumes ONTAP 배포</block>
+  <block id="f3cd224f9506684fa3b5e2b89b2a566c" category="paragraph">콘솔에서 라이선스 키를 업로드하고 구매한 기간 동안 구독을 활성화하려면 NSS 계정을 제공해야 합니다. 여기에는 기간 갱신을 위한 자동 업데이트가 포함됩니다.</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAP 소프트웨어를 최신 릴리스로 업그레이드</block>
+  <block id="daf104544b5203a46e1580e1b8583f1f" category="paragraph">NSS 자격 증명을 NetApp Console 계정과 연결하는 것은 콘솔 사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
+  <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">이러한 NSS 자격 증명은 특정 콘솔 계정 ID와 연결됩니다. 콘솔 조직에 속한 사용자는 *지원 &gt; NSS 관리*에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">고객 수준 계정이 있는 경우 하나 이상의 NSS 계정을 추가할 수 있습니다.</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">파트너 또는 리셀러 계정이 있는 경우 하나 이상의 NSS 계정을 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">*NSS 관리 &gt; NSS 계정 추가*를 선택하세요.</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">메시지가 표시되면 *계속*을 선택하여 Microsoft 로그인 페이지로 이동합니다.</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp 지원 및 라이선싱에 특화된 인증 서비스를 위한 ID 공급자로 Microsoft Entra ID를 사용합니다.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 NetApp 지원 사이트에 등록된 이메일 주소와 비밀번호를 입력하여 인증 과정을 진행합니다.</block>
+  <block id="7687b0a57d5cb728d9fb892dfc814715" category="paragraph">이러한 작업을 통해 콘솔은 라이선스 다운로드, 소프트웨어 업그레이드 확인, 향후 지원 등록과 같은 작업에 NSS 계정을 사용할 수 있습니다.</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS 계정은 고객 수준 계정이어야 합니다(게스트나 임시 계정이어서는 안 됩니다). 여러 개의 고객 수준 NSS 계정을 가질 수 있습니다.</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">해당 계정이 파트너 수준 계정인 경우 NSS 계정은 하나만 있을 수 있습니다. 고객 수준 NSS 계정을 추가하려고 하는데 파트너 수준 계정이 이미 있는 경우 다음과 같은 오류 메시지가 표시됩니다.</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"이 계정에는 다른 유형의 NSS 사용자가 이미 있으므로 NSS 고객 유형이 허용되지 않습니다."</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">기존 고객 수준 NSS 계정이 있고 파트너 수준 계정을 추가하려는 경우에도 마찬가지입니다.</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">로그인에 성공하면 NetApp NSS 사용자 이름을 저장합니다.</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">세 개의 수평 점으로 구성된 아이콘</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">이는 귀하의 이메일에 매핑되는 시스템 생성 ID입니다. *NSS 관리* 페이지에서 이메일을 표시할 수 있습니다.<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 *자격 증명 업데이트* 옵션도 있습니다.<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다. 이 계정의 토큰은 90일 후에 만료됩니다. 이에 대한 알림이 게시됩니다.</block>
+  <block id="0bf8a233feaff9e97e741d5e88905db3" category="summary">StorageGRID 시스템을 검색한 후에는 용량 분포와 관련 알림, 노드, 테넌트에 대한 세부 정보를 볼 수 있습니다.</block>
+  <block id="c20219c45cfba3fdfc2396d8aa96c143" category="doc">StorageGRID 시스템 보기</block>
+  <block id="534a11c8fab2f45d8180a8b8c48cb1f0" category="list-text">*시스템* 페이지에서 보려는 StorageGRID 시스템을 선택합니다.</block>
+  <block id="f7129a1dc91c16787f11db8552772f5b" category="list-text">StorageGRID 시스템에 대한 자세한 내용을 보려면 사용 가능한 메뉴 옵션에서 선택하세요.</block>
+  <block id="8cee006c52b25ffa341e9665d1f36032" category="list-text">*개요*: 시스템 용량 분포(사용된 용량과 남은 용량), 시스템 알림, 노드, 테넌트 수 등에 대한 자세한 보기입니다.</block>
+  <block id="7a78715e6a36fa2dcf6896248ccc058c" category="list-text">*알림*: 활성 알림, 해결된 알림, 해제된 알림을 포함한 시스템 알림 요약입니다.</block>
+  <block id="88a1a574aabf262882af454484c4f44f" category="list-text">*노드*: 관리 노드, API 게이트웨이 노드, 스토리지 노드에 대한 세부 정보입니다.  여기에는 사용된 객체 데이터, 사용된 객체 메타데이터, CPU 사용률에 대한 백분율이 포함됩니다.</block>
+  <block id="91106c0a9a8679958f2d935850e42f7e" category="list-text">*테넌트*: 논리적 공간 사용, 할당량 활용도, 할당량 및 개체 수를 포함한 테넌트에 대한 주요 세부 정보입니다.</block>
+  <block id="e8d1456416daa95bfb687099cc3fbb58" category="summary">NetApp Console 에서 StorageGRID 시스템을 관리하는 새로운 기능에 대해 알아보세요.</block>
+  <block id="a39b0065ec636bbdd671213be9d343f4" category="doc">StorageGRID 관리의 새로운 기능</block>
+  <block id="59adf231110f5ab5dfdc34e98dacaf75" category="paragraph">NetApp Console 에서 StorageGRID 시스템을 관리하는 새로운 기능에 대해 알아보세요.</block>
+  <block id="91d6aafc857e46203357e992ab4434f8" category="section-title">2025년 10월 6일</block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025년 5월 12일</block>
+  <block id="43371a1519dc6641cd8852962e536c3e" category="section-title">2024년 8월 7일</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
+  <block id="2a5debfc305ca51b1d9a57049c60e8cb" category="sidebar">Grid Manager를 사용하여 NetApp Console 에서 StorageGRID 시스템을 관리하고 NetApp 데이터 서비스를 사용하여 백업, 데이터 계층화 등을 수행하세요.</block>
+  <block id="7b63e3ab012c50052cf80c91528ad009" category="sidebar">NetApp Console 사용한 StorageGRID 관리</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하기</block>
+  <block id="f8fe3d533b3c8ec77c886cdbfcbd8c60" category="sidebar">StorageGRID 시스템을 알아보세요</block>
+  <block id="a6ba2d89122672398b70094e4effce77" category="sidebar">StorageGRID 시스템 관리</block>
+  <block id="5a48514fa915876d588438500b09c18f" category="sidebar">StorageGRID 제거</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">더 많은 정보</block>
+  <block id="0bbcb573e270ffdb861d546d2d507352" category="sidebar">NetApp Console 외부에서 관리하기 위한 StorageGRID 설명서</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 및 커뮤니티</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="sidebar">NetApp Console</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp Data Services</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
+  <block id="67d5dc044866a0ff55b817d754d94a3e" category="sidebar">StorageGRID 문서</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 노트</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
+  <block id="95dc0391ce7b396d7dd5622284e8fc3e" category="sidebar">알려진 문제</block>
+  <block id="d85b01f001ee16ebd8eb1917c739d824" category="sidebar">StorageGRID 시스템을 알아보세요</block>
+  <block id="fb6e1263028aaf83a98c38f91ee467e9" category="sidebar">StorageGRID 인증서 보기 및 업데이트</block>
+  <block id="21bd2ca4d81529bdc81f70cd7c8cda30" category="sidebar">고급 보기를 사용하여 StorageGRID 관리</block>
+  <block id="ae52ff2fa45ec695a0eb4dddc56142e2" category="sidebar">시스템 제거</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식과 지원</block>
+</blocks>

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-discover-storagegrid.html 
 keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
-summary: 온프레미스 환경에서 StorageGRID 시스템을 검색한 다음 Grid Manager를 사용하여 NetApp 콘솔에서 직접 관리하세요. 
+summary: 온프레미스 환경에서 StorageGRID 시스템을 검색한 다음 Grid Manager를 사용하여 NetApp Console 에서 직접 관리하세요. 
 ---
-= NetApp 콘솔에 StorageGRID 시스템 추가
+= NetApp Console 에 StorageGRID 시스템 추가
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,15 +14,15 @@ summary: 온프레미스 환경에서 StorageGRID 시스템을 검색한 다음 
 
 
 [role="lead"]
-Grid Manager를 사용하여 NetApp 콘솔에서 직접 StorageGrid 시스템을 관리하세요.
+Grid Manager를 사용하여 NetApp Console 에서 직접 StorageGrid 시스템을 관리하세요.
 
-.필요한 NetApp 콘솔 역할:
-스토리지 관리자 또는 시스템 상태 전문가.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetApp 콘솔 액세스 역할에 대해 알아보세요."^]
+.필요한 NetApp Console 역할:
+스토리지 관리자 또는 시스템 상태 전문가.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetApp Console 액세스 역할에 대해 알아보세요."^]
 
 .시작하기 전에
 다음이 필요합니다.
 
-* 버전 3.9.43 이상을 사용하는 NetApp 콘솔 에이전트.  콘솔 에이전트를 설치하려면 조직 관리자 역할이 있어야 합니다.  귀하의 조직에 콘솔 에이전트가 있는지 확실하지 않거나 콘솔 에이전트를 만들어야 하는 경우 NetApp 콘솔 관리자에게 문의하세요. https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["귀하의 조직 관리자에게 문의하세요."^]
+* 버전 3.9.43 이상을 사용하는 NetApp Console 에이전트.  콘솔 에이전트를 설치하려면 조직 관리자 역할이 있어야 합니다.  귀하의 조직에 콘솔 에이전트가 있는지 확실하지 않거나 콘솔 에이전트를 만들어야 하는 경우 NetApp Console 관리자에게 문의하세요. https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["귀하의 조직 관리자에게 문의하세요."^]
 * 관리 노드의 도메인 이름 또는 IP 주소입니다.
 * 관리자 노드에 대한 관리자 자격 증명입니다.
 * StorageGRID 시스템에 관리 인터페이스 인증서가 설치되었습니다.
@@ -50,14 +50,14 @@ https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-ce
 +
 .. 인증서를 사용하려면 *인증서 승인*을 선택하세요.
 +
-NetApp 콘솔은 성공 메시지를 표시하고 승인된 인증서를 검증하여 StorageGRID 서버와 콘솔 에이전트 간의 모든 통신을 보호합니다.
+NetApp Console 성공 메시지를 표시하고 승인된 인증서를 검증하여 StorageGRID 서버와 콘솔 에이전트 간의 모든 통신을 보호합니다.
 
 .. 인증서를 확인하지 않고 검색 프로세스를 종료하려면 *취소*를 선택하세요.
 +
 예를 들어, StorageGRID 관리 인증서를 업데이트해야 한다는 오류 메시지가 나타나면 *취소*를 선택할 수 있습니다.
 
 +
-인증서를 업데이트하려면 StorageGRID 시스템으로 이동하여 인증서를 업데이트한 다음 NetApp 콘솔에서 검색 프로세스를 다시 시작하세요.
+인증서를 업데이트하려면 StorageGRID 시스템으로 이동하여 인증서를 업데이트한 다음 NetApp Console 에서 검색 프로세스를 다시 시작하세요.
 
 
 

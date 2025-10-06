@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-get-help.html 
 keywords: help, ticket, open support case, support, netapp support, technical support, call support, phone number, open ticket, web ticket, open an issue 
-summary: 'NetApp 다양한 방법으로 NetApp 콘솔에 대한 지원을 제공합니다.  지식 기반(KB) 문서와 커뮤니티 포럼 등 광범위한 무료 셀프 지원 옵션을 연중무휴 24시간 이용할 수 있습니다. 지원 등록 시 웹 티켓팅을 통한 원격 기술 지원이 제공됩니다.' 
+summary: 'NetApp 다양한 방법으로 NetApp Console 에 대한 지원을 제공합니다. 지식 기반(KB) 문서와 커뮤니티 포럼 등 광범위한 무료 셀프 지원 옵션을 연중무휴 24시간 이용할 수 있습니다. 지원 등록 시 웹 티켓팅을 통한 원격 기술 지원이 제공됩니다.' 
 ---
 = 도움을 받으세요
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 'NetApp 다양한 방법으로 NetApp 콘솔에 대한 지원을 제공
 
 
 [role="lead"]
-NetApp 다양한 방법으로 NetApp Console과 클라우드 서비스에 대한 지원을 제공합니다. 지식 기반(KB) 문서와 커뮤니티 포럼 등 광범위한 무료 셀프 지원 옵션을 24시간 연중무휴로 이용할 수 있습니다. 지원 등록 시 웹 티켓팅을 통한 원격 기술 지원이 제공됩니다.
+NetApp 다양한 방법으로 NetApp Console 과 클라우드 서비스에 대한 지원을 제공합니다. 지식 기반(KB) 문서와 커뮤니티 포럼 등 광범위한 무료 셀프 지원 옵션을 24시간 연중무휴로 이용할 수 있습니다. 지원 등록 시 웹 티켓팅을 통한 원격 기술 지원이 제공됩니다.
 
 
 
@@ -34,7 +34,7 @@ NetApp 과 해당 스토리지 솔루션, 데이터 서비스에 대한 특정 �
 
 * 설명서
 +
-현재 보고 있는 NetApp 콘솔 문서입니다.
+현재 보고 있는 NetApp Console 문서입니다.
 
 * https://kb.netapp.com/Cloud/BlueXP["지식 기반"^]
 +
@@ -58,13 +58,13 @@ NetApp Console 커뮤니티에 가입하여 진행 중인 토론을 팔로우하
 
 
 .단계
-. NetApp 콘솔에서 *도움말 > 지원*을 선택합니다.
+. NetApp Console 에서 *도움말 > 지원*을 선택합니다.
 . *리소스* 페이지에서 기술 지원 아래에 있는 사용 가능한 옵션 중 하나를 선택하세요.
 +
 .. 전화로 상담원과 통화하고 싶으시면 *전화하기*를 선택하세요. netapp.com에서 전화할 수 있는 전화번호가 나열된 페이지로 이동하게 됩니다.
 .. NetApp 지원 전문가에게 티켓을 열려면 *사례 만들기*를 선택하세요.
 +
-*** *서비스*: 문제와 관련된 서비스를 선택하세요. 예를 들어, * NetApp 콘솔*은 콘솔 내 워크플로나 기능에 대한 기술 지원 문제에 특화되어 있습니다.
+*** *서비스*: 문제와 관련된 서비스를 선택하세요. 예를 들어, * NetApp Console*은 콘솔 내 워크플로 또는 기능과 관련된 기술 지원 문제에 대한 구체적인 내용입니다.
 *** *시스템*: 스토리지에 해당되는 경우 * Cloud Volumes ONTAP* 또는 *온프레미스*를 선택한 다음 연관된 작업 환경을 선택합니다.
 +
 시스템 목록은 콘솔 조직 범위 내에 있으며, 상단 배너에서 선택한 콘솔 에이전트입니다.
@@ -97,7 +97,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/scr
 
 "선택한 서비스에 대해 사례를 생성할 권한이 없습니다."
 
-이 오류는 NSS 계정과 해당 계정과 연결된 기록상 회사가 NetApp 콘솔 계정 일련 번호에 대한 기록상 회사와 동일하지 않다는 것을 의미할 수 있습니다(예: 960xxxx) 또는 작업 환경 일련 번호. 다음 옵션 중 하나를 사용하여 도움을 요청할 수 있습니다.
+이 오류는 NSS 계정과 해당 계정과 연결된 기록상 회사가 NetApp Console 계정 일련 번호에 대한 기록상 회사와 동일하지 않다는 것을 의미할 수 있습니다(예: 960xxxx) 또는 작업 환경 일련 번호. 다음 옵션 중 하나를 사용하여 도움을 요청할 수 있습니다.
 
 * 비기술적 사례를 제출하세요 https://mysupport.netapp.com/site/help[]
 
@@ -127,7 +127,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/scr
 
 
 .단계
-. NetApp 콘솔에서 *도움말 > 지원*을 선택합니다.
+. NetApp Console 에서 *도움말 > 지원*을 선택합니다.
 . *사례 관리*를 선택하고 메시지가 표시되면 콘솔에 NSS 계정을 추가합니다.
 +
 *사례 관리* 페이지는 콘솔 사용자 계정과 연결된 NSS 계정과 관련된 미해결 사례를 표시합니다. 이는 *NSS 관리* 페이지 상단에 표시되는 NSS 계정과 동일합니다.
@@ -140,7 +140,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/scr
 ** 표에 나타나는 열을 변경하려면 다음을 선택하세요.image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-table-columns.png["표에 나타나는 플러스 아이콘"] 그런 다음 표시하려는 열을 선택합니다.
 
 
-. 기존 사례를 관리하려면 다음을 선택하세요.image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-table-action.png["표의 마지막 열에 나타나는 세 개의 점이 있는 아이콘"] 그리고 사용 가능한 옵션 중 하나를 선택하세요:
+. 기존 사례를 선택하여 관리하세요.image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-table-action.png["표의 마지막 열에 나타나는 세 개의 점이 있는 아이콘"] 그리고 사용 가능한 옵션 중 하나를 선택하세요:
 +
 ** *사례 보기*: 특정 사례에 대한 전체 세부 정보를 확인하세요.
 ** *사례 메모 업데이트*: 문제에 대한 추가 세부 정보를 제공하거나 *파일 업로드*를 선택하여 최대 5개의 파일을 첨부하세요.

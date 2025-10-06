@@ -4,7 +4,7 @@ permalink: reference-known-issues.html
 keywords: issues, known issues, bugs, errors, storagegrid, storage grid, storagegrid known issues, netapp console known issues 
 summary: 알려진 문제는 이 제품 릴리스를 성공적으로 사용하는 데 방해가 될 수 있는 문제를 나타냅니다. 
 ---
-= NetApp 콘솔에서 StorageGRID 관리하는 데 알려진 문제
+= NetApp Console 에서 StorageGRID 관리하는 데 알려진 문제
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -18,9 +18,9 @@ summary: 알려진 문제는 이 제품 릴리스를 성공적으로 사용하�
 
 
 
-== 업데이트된 표시 이름이 NetApp 콘솔에 나타나지 않습니다.
+== 업데이트된 표시 이름이 NetApp Console 에 나타나지 않습니다.
 
-사이트나 그리드에 대한 새 표시 이름을 정의하기 위해 이름 바꾸기 절차를 사용하는 경우, 새 표시 이름은 NetApp 콘솔에 반영되지 않습니다.  NetApp 콘솔 내에서 시스템은 새로운 표시 이름이 아닌 시스템 이름을 계속 표시합니다.
+사이트나 그리드에 대한 새 표시 이름을 정의하기 위해 이름 바꾸기 절차를 사용하는 경우, 새 표시 이름은 NetApp Console 에 반영되지 않습니다.  NetApp Console 내에서 시스템은 새로운 표시 이름이 아닌 시스템 이름을 계속 표시합니다.
 
 
 
