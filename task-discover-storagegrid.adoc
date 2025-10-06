@@ -1,0 +1,64 @@
+---
+sidebar: sidebar 
+permalink: task-discover-storagegrid.html 
+keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
+summary: 온프레미스 환경에서 StorageGRID 시스템을 검색한 다음 Grid Manager를 사용하여 NetApp 콘솔에서 직접 관리하세요. 
+---
+= NetApp 콘솔에 StorageGRID 시스템 추가
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Grid Manager를 사용하여 NetApp 콘솔에서 직접 StorageGrid 시스템을 관리하세요.
+
+.필요한 NetApp 콘솔 역할:
+스토리지 관리자 또는 시스템 상태 전문가.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetApp 콘솔 액세스 역할에 대해 알아보세요."^]
+
+.시작하기 전에
+다음이 필요합니다.
+
+* 버전 3.9.43 이상을 사용하는 NetApp 콘솔 에이전트.  콘솔 에이전트를 설치하려면 조직 관리자 역할이 있어야 합니다.  귀하의 조직에 콘솔 에이전트가 있는지 확실하지 않거나 콘솔 에이전트를 만들어야 하는 경우 NetApp 콘솔 관리자에게 문의하세요. https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["귀하의 조직 관리자에게 문의하세요."^]
+* 관리 노드의 도메인 이름 또는 IP 주소입니다.
+* 관리자 노드에 대한 관리자 자격 증명입니다.
+* StorageGRID 시스템에 관리 인터페이스 인증서가 설치되었습니다.
++
+https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["StorageGRID 에 관리 인터페이스 인증서를 설치하는 방법에 대해 자세히 알아보세요."^]
+
+
+
+.단계
+. 탐색 메뉴에서 *저장소 > 관리*를 선택합니다.
+. *시스템*을 선택하세요.
+. *시스템 추가*를 선택하고 *온프레미스*를 선택합니다.
+. * StorageGRID* 옆에서 *Discover*를 선택합니다.
+. 콘솔의 _StorageGRID 클러스터 세부 정보_ 페이지에서 관리 노드의 도메인 이름 또는 IP 주소, 노드의 자격 증명을 입력한 다음 *추가*를 선택합니다.
+. 콘솔은 자동으로 StorageGRID 관리 인터페이스 인증서를 검색합니다.  _인증서 승인_ 페이지에서 인증서 세부 정보를 검토합니다.
+. 다른 인증서를 사용하려면 먼저 StorageGRID 시스템에 인증서를 설정하세요.
++
+.. 온프레미스 StorageGRID 시스템에서 다음 지침을 따르세요. https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["StorageGRID 에 관리 인터페이스 인증서 설치"^] .
+.. StorageGRID 시스템에서 인증서를 구성한 후 콘솔의 _인증서 승인_ 페이지에서 *취소*를 선택합니다.
+.. _StorageGRID 클러스터 세부 정보_ 페이지에서 *추가*를 선택합니다.
+
+
+. 선택적으로 *증명서 복사*를 선택하여 증명서 세부 정보를 복사합니다.  원하는 경우 인증서 세부 정보를 사용하여 추가 검증을 수행할 수 있습니다.
+. 다음 중 하나를 수행하세요.
++
+.. 인증서를 사용하려면 *인증서 승인*을 선택하세요.
++
+NetApp 콘솔은 성공 메시지를 표시하고 승인된 인증서를 검증하여 StorageGRID 서버와 콘솔 에이전트 간의 모든 통신을 보호합니다.
+
+.. 인증서를 확인하지 않고 검색 프로세스를 종료하려면 *취소*를 선택하세요.
++
+예를 들어, StorageGRID 관리 인증서를 업데이트해야 한다는 오류 메시지가 나타나면 *취소*를 선택할 수 있습니다.
+
++
+인증서를 업데이트하려면 StorageGRID 시스템으로 이동하여 인증서를 업데이트한 다음 NetApp 콘솔에서 검색 프로세스를 다시 시작하세요.
+
+
+
+

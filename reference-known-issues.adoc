@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: reference-known-issues.html 
+keywords: issues, known issues, bugs, errors, storagegrid, storage grid, storagegrid known issues, netapp console known issues 
+summary: 알려진 문제는 이 제품 릴리스를 성공적으로 사용하는 데 방해가 될 수 있는 문제를 나타냅니다. 
+---
+= NetApp 콘솔에서 StorageGRID 관리하는 데 알려진 문제
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+알려진 문제는 이 제품 릴리스를 성공적으로 사용하는 데 방해가 될 수 있는 문제를 나타냅니다.
+
+
+
+== 업데이트된 표시 이름이 NetApp 콘솔에 나타나지 않습니다.
+
+사이트나 그리드에 대한 새 표시 이름을 정의하기 위해 이름 바꾸기 절차를 사용하는 경우, 새 표시 이름은 NetApp 콘솔에 반영되지 않습니다.  NetApp 콘솔 내에서 시스템은 새로운 표시 이름이 아닌 시스템 이름을 계속 표시합니다.
+
+
+
+== 알림 필터링 중 오류 발생
+
+고급 보기를 사용할 때 알림 페이지의 내용을 필터링하면 오류가 발생합니다.
+
+
+
+== 그리드 연합 연결을 편집하는 동안 오류가 발생했습니다.
+
+고급 보기를 사용하는 경우 그리드 페더레이션 연결을 편집할 때 게이트웨이 시간 초과 오류가 발생할 수 있습니다.

@@ -1,0 +1,34 @@
+---
+indexpage:
+  title: NetApp 콘솔을 사용한 StorageGRID 관리
+  summary: Grid Manager를 사용하여 NetApp 콘솔에서 StorageGRID 시스템을 관리하고 NetApp 데이터 서비스를 사용하여
+    백업, 데이터 계층화 등을 수행하세요.
+  keywords: storagegrid systems, bluexp, data, hybrid, multicloud, netapp console,
+    console
+  lead: Grid Manager를 사용하여 NetApp 콘솔에서 StorageGRID 시스템을 관리하고 NetApp 데이터 서비스를 사용하여
+    백업, 데이터 계층화 등을 수행하세요.
+  tiles:
+  - title: 시작하기
+    links:
+    - title: StorageGRID 시스템을 알아보세요
+      url: task-discover-storagegrid.html
+  - title: StorageGRID 시스템 관리
+    links:
+    - title: StorageGRID 시스템 보기
+      url: task-view-storagegrid.html
+    - title: StorageGRID 와 함께 NetApp 데이터 서비스 사용
+      url: task-enable-data-services.html
+    - title: StorageGRID 제거
+      url: task-remove-storagegrid.html
+  - title: 더 많은 정보
+    links:
+    - title: NetApp 콘솔 외부에서 관리하기 위한 StorageGRID 설명서
+      url: https://docs.netapp.com/us-en/storagegrid-118/
+  - title: 블로그 및 커뮤니티
+    links:
+    - title: NetApp 콘솔
+      url: https://www.netapp.com/console
+    - title: NetApp 데이터 서비스
+      url: https://www.netapp.com/data-services/
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/

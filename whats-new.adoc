@@ -1,0 +1,69 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, storagegrid' 
+summary: NetApp 콘솔에서 StorageGRID 시스템을 관리하는 새로운 기능에 대해 알아보세요. 
+---
+= StorageGRID 관리의 새로운 기능
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp 콘솔에서 StorageGRID 시스템을 관리하는 새로운 방법을 알아보세요.
+
+
+
+== 2025년 10월 6일
+
+
+
+=== BlueXP 는 이제 NetApp 콘솔입니다.
+
+강화되고 재구성된 BlueXP 기반을 기반으로 구축된 NetApp 콘솔은 엔터프라이즈급 온프레미스 및 클라우드 환경 전반에서 NetApp 스토리지와 NetApp 데이터 서비스를 중앙에서 관리하여 실시간 통찰력, 더 빠른 워크플로, 간소화된 관리를 제공하며, 높은 보안성과 규정 준수를 보장합니다.
+
+변경된 사항에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp 콘솔 릴리스 노트"] .
+
+
+
+== 2025년 5월 12일
+
+
+
+=== BlueXP 액세스 역할이 필요합니다
+
+이제 BlueXP 에서 StorageGRID 보거나 검색하거나 관리하려면 다음 액세스 역할 중 하나가 필요합니다. *조직 관리자*, *폴더 또는 프로젝트 관리자*, *스토리지 관리자* 또는 *스토리지 상태 전문가*.link:https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html["BlueXP 액세스 역할에 대해 알아보세요."^]
+
+
+
+== 2024년 8월 7일
+
+
+
+=== 새로운 고급 보기
+
+StorageGRID 11.8부터 익숙한 Grid Manager 인터페이스를 사용하여 BlueXP 에서 StorageGRID 시스템을 관리할 수 있습니다.
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.html["고급 보기를 사용하여 StorageGRID 관리하는 방법을 알아보세요."] .
+
+
+
+=== StorageGRID 관리 인터페이스 인증서를 검토하고 승인하는 기능
+
+이제 BlueXP 에서 StorageGRID 시스템을 검색할 때 StorageGRID 관리 인터페이스 인증서를 검토하고 승인할 수 있습니다.  검색된 그리드에서 최신 StorageGRID 관리 인터페이스 인증서를 검토하고 승인할 수도 있습니다.
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html["시스템 검색 중에 서버 인증서를 검토하고 승인하는 방법을 알아보세요."]
+
+
+
+== 2022년 9월 18일
+
+
+
+=== StorageGRID 지원
+
+이제 BlueXP 에서 바로 StorageGRID 시스템을 검색할 수 있습니다.  StorageGRID 사용하면 하이브리드 멀티클라우드 전반의 데이터를 완벽하게 볼 수 있습니다.

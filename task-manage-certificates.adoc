@@ -1,0 +1,54 @@
+---
+sidebar: sidebar 
+permalink: task-manage-certificates.html 
+keywords: storagegrid, certificate, manage, manage interface certificate, refresh certificate, update certificate 
+summary: 인증서는 만료될 수 있으므로 가끔 인증서 상태를 확인하거나 업데이트해야 할 수도 있습니다. 
+---
+= NetApp 콘솔에서 StorageGRID 인증서 보기 및 업데이트
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp 콘솔에서 시스템을 검색하려면 먼저 StorageGRID 시스템에 관리 인터페이스 인증서가 필요합니다.  인증서는 콘솔과 StorageGRID 간의 보안 연결을 제공합니다.  인증서는 만료될 수 있으므로 가끔 인증서 상태를 확인하거나 업데이트해야 할 수도 있습니다.
+
+.필요한 NetApp 콘솔 역할:
+저장소 관리자.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetApp 콘솔 액세스 역할에 대해 알아보세요."^]
+
+
+
+== 관리 인터페이스 인증서 상태 보기
+
+StorageGRID 시스템의 관리 인터페이스 인증서 상태를 보고 인증서가 여전히 유효한지 확인하세요.
+
+.단계
+. 탐색 메뉴에서 *저장소 > 관리*를 선택합니다.
+. *시스템* 페이지에서 StorageGRID 시스템을 선택합니다.
+. 표준 보기에서 페이지 오른쪽의 _정보_ 창 하단에서 사용자 승인 인증서의 상태를 확인하세요.
++
+
+NOTE: 인증서 상태는 24시간마다 새로 고쳐집니다.
+
+
+
+
+
+== 관리 인터페이스 인증서 업데이트
+
+관리 인터페이스 인증서 상태가 유효하지 않거나 인증서가 만료되었다는 알림을 받은 경우 NetApp 콘솔이 StorageGRID 에 연결할 수 있도록 인증서를 업데이트해야 합니다.
+
+.단계
+. StorageGRID 의 온프레미스 Grid Manager로 이동하여 지침을 따르세요. https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["StorageGRID 에 관리 인터페이스 인증서 설치"] .
+. NetApp 콘솔 탐색 메뉴에서 *스토리지 > 관리*를 선택합니다.
+. *시스템* 페이지에서 StorageGRID 시스템을 선택합니다.
+. 더 많은 옵션 아이콘(세 개의 수직 점이 있는 원)을 선택하세요.
++
+image:screenshot-update-certificate.png["업데이트 메뉴의 스크린샷입니다."]
+
+. *인증서 업데이트*를 선택하세요.
+. _인증서 승인_ 페이지에서 *인증서 승인*을 선택하여 업데이트된 인증서를 사용합니다.
+

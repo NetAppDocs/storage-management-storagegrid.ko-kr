@@ -1,0 +1,124 @@
+---
+sidebar: sidebar 
+permalink: task-administer-storagegrid.html 
+keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
+summary: 고급 보기를 사용하여 NetApp 콘솔에서 StorageGRID 시스템을 관리합니다.  이 보기를 사용하면 NetApp 콘솔 내에서 Grid Manager를 사용할 수 있습니다. 
+---
+= NetApp 콘솔의 Grid Manager를 사용하여 StorageGRID 관리
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+고급 보기를 사용하여 콘솔에서 StorageGRID 시스템을 관리합니다.  이 보기를 사용하면 콘솔에서 Grid Manager를 사용할 수 있습니다.
+
+.필요한 NetApp 콘솔 역할:
+스토리지 관리자 또는 시스템 상태 전문가.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["액세스 역할에 대해 알아보세요."^]
+
+
+
+== 지원되는 구성
+
+Grid Manager는 StorageGRID 11.8부터 콘솔에서 사용할 수 있습니다.
+
+
+
+== 제한 사항
+
+다음 Grid Manager 작업은 콘솔에서 사용할 수 없습니다.  이러한 작업을 수행해야 하는 경우 Grid Manager에 직접 로그인하세요.
+
+[cols="1a,2a"]
+|===
+| 그리드 관리자 메뉴 | 콘솔에서 사용할 수 없는 작업 
+
+
+ a| 
+사용자
+ a| 
+* 로그아웃 링크
+* API 문서 링크
+* 비밀번호 변경
+
+
+
+
+ a| 
+노드
+ a| 
+* 노드 > SANtricity System Manager 탭에서 SANtricity System Manager에 액세스할 수 없습니다.
+* 알림을 볼 때 권장 작업의 모든 링크를 선택하지 못할 수 있습니다.  예를 들어, 지원되지 않는 Grid Manager 페이지로 이동하는 링크는 작동하지 않습니다.
+
+
+
+
+ a| 
+세입자
+ a| 
+테넌트 생성 마법사나 테넌트 페이지에서 테넌트 계정에 로그인할 수 없습니다.
+
+현재 콘솔은 테넌트 관리자를 지원하지 않습니다.  콘솔에서 새로운 테넌트 계정을 만들 수는 있지만 테넌트 사용자는 콘솔에서 자신의 계정에 로그인할 수 없습니다.
+
+
+
+ a| 
+일엠엠
+ a| 
+저장 등급 링크
+
+
+
+ a| 
+구성
+ a| 
+* 그리드 비밀번호
+* 트래픽 분류 > 메트릭
+* 보안 설정 > 브라우저 비활성 시간 초과
+* 단일 로그인
+* SNMP 에이전트 > BMC 인터페이스용 MIB 파일
+
+
+
+
+ a| 
+유지
+ a| 
+* 복구 패키지
+* 소프트웨어 업데이트
+
+
+
+
+ a| 
+지원하다
+ a| 
+* 그리드 토폴로지
+* 로그
+* UI의 다른 위치에서 Prometheus 메트릭과 Grafana 대시보드에 대한 모든 링크를 포함한 메트릭입니다.
+* 레거시 알람에 대한 모든 옵션
+* 링크 비용
+* NMS 엔터티
+
+
+|===
+
+
+== 고급 보기로 전환
+
+StorageGRID 시스템을 열고 고급 보기 옵션을 선택합니다.
+
+.단계
+. *시스템* 페이지에서 StorageGRID 시스템을 엽니다.
+. 오른쪽 상단에서 *고급 보기로 전환*을 선택하세요.
+. Grid Manager를 사용하여 StorageGRID 시스템을 관리하세요.
+. 필요한 경우 콘솔을 통해 표준 보기로 돌아가려면 표준 보기로 전환을 선택하세요.
+
+
+
+
+== Grid Manager에 대한 도움말 받기
+
+Grid Manager 사용에 도움이 필요하면 다음을 참조하세요. https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["StorageGRID 문서"^] 단계별 지침을 확인하세요.

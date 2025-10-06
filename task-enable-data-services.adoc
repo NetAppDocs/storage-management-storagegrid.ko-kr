@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: task-enable-data-services.html 
+keywords: storagegrid, cloud sync, cloud backup, backup, back up data, tier data, data tiering, tiering to storagegrid, tiering 
+summary: NetApp 콘솔에서 StorageGRID 시스템을 발견하면 NetApp의 데이터 서비스를 사용하여 백업, 데이터 계층화, 데이터 동기화를 수행할 수 있습니다. 
+---
+= StorageGRID 와 함께 NetApp 데이터 서비스 사용
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp 콘솔에서 StorageGRID 시스템을 발견하면 NetApp 데이터 서비스를 사용하여 백업, 데이터 계층화 및 데이터 동기화를 수행할 수 있습니다.
+
+* NetApp Backup and Recovery를 사용하면 온프레미스 ONTAP 시스템의 데이터를 NetApp StorageGRID 시스템의 개체 스토리지로 백업할 수 있습니다.
++
+시작하려면 *시스템* 페이지로 이동하여 온프레미스 ONTAP 시스템을 StorageGRID 시스템으로 끌어다 놓으세요.
+
++
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["온프레미스 ONTAP 데이터를 StorageGRID 에 백업하는 방법에 대해 자세히 알아보세요."^]
+
+* NetApp Cloud Tiering을 사용하면 온프레미스 ONTAP 클러스터에서 비활성 데이터를 StorageGRID 로 자동으로 계층화할 수 있습니다.
++
+시작하려면 *시스템* 페이지로 이동하여 온프레미스 ONTAP 시스템을 StorageGRID 시스템으로 끌어다 놓으세요.
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-storagegrid.html["온프레미스 ONTAP 클러스터에서 StorageGRID 로 데이터 계층화에 대해 자세히 알아보세요."^]
+
+* NetApp Copy and Sync를 사용하여 StorageGRID 시스템과 데이터를 동기화합니다.
++
+시작하려면 *시스템* 페이지로 가서 소스 시스템을 대상 시스템으로 끌어다 놓으세요.  StorageGRID 소스 또는 대상이 될 수 있습니다.
+
++
+https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["NetApp Copy and Sync에 대해 자세히 알아보세요"^]
+
+

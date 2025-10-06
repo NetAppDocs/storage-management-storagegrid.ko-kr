@@ -1,0 +1,19 @@
+= 새로운 고급 보기
+:allow-uri-read: 
+
+
+
+
+=== 새로운 고급 보기
+
+StorageGRID 11.8부터 익숙한 Grid Manager 인터페이스를 사용하여 BlueXP 에서 StorageGRID 시스템을 관리할 수 있습니다.
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.html["고급 보기를 사용하여 StorageGRID 관리하는 방법을 알아보세요."] .
+
+
+
+=== StorageGRID 관리 인터페이스 인증서를 검토하고 승인하는 기능
+
+이제 BlueXP 에서 StorageGRID 시스템을 검색할 때 StorageGRID 관리 인터페이스 인증서를 검토하고 승인할 수 있습니다.  검색된 그리드에서 최신 StorageGRID 관리 인터페이스 인증서를 검토하고 승인할 수도 있습니다.
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html["시스템 검색 중에 서버 인증서를 검토하고 승인하는 방법을 알아보세요."]

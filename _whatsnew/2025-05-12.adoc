@@ -1,0 +1,9 @@
+= BlueXP 액세스 역할이 필요합니다
+:allow-uri-read: 
+
+
+
+
+=== BlueXP 액세스 역할이 필요합니다
+
+이제 BlueXP 에서 StorageGRID 보거나 검색하거나 관리하려면 다음 액세스 역할 중 하나가 필요합니다. *조직 관리자*, *폴더 또는 프로젝트 관리자*, *스토리지 관리자* 또는 *스토리지 상태 전문가*.link:https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html["BlueXP 액세스 역할에 대해 알아보세요."^]
