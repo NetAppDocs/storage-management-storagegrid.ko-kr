@@ -10,9 +10,6 @@
   <block id="7ef5c031e9bd4c1394a8093c50afe4e2" category="paragraph">이제 BlueXP 에서 StorageGRID 시스템을 검색할 때 StorageGRID 관리 인터페이스 인증서를 검토하고 승인할 수 있습니다.  검색된 그리드에서 최신 StorageGRID 관리 인터페이스 인증서를 검토하고 승인할 수도 있습니다.</block>
   <block id="4a314d3b77101d6faf44fa4063c45276" category="inline-link">시스템 검색 중에 서버 인증서를 검토하고 승인하는 방법을 알아보세요.</block>
   <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
-  <block id="2bef154766331bbaacbab995f24ef0c2" category="doc">BlueXP 액세스 역할이 필요합니다</block>
-  <block id="fd3b9b6f969e334605ecb2deacbd84cc" category="inline-link-macro">BlueXP 액세스 역할에 대해 알아보세요.</block>
-  <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">이제 BlueXP 에서 StorageGRID 보거나 검색하거나 관리하려면 다음 액세스 역할 중 하나가 필요합니다. *조직 관리자*, *폴더 또는 프로젝트 관리자*, *스토리지 관리자* 또는 *스토리지 상태 전문가*.<block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP 는 이제 NetApp Console 입니다.</block>
   <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">강화되고 재구성된 BlueXP 기반을 기반으로 구축된 NetApp Console 엔터프라이즈급 온프레미스 및 클라우드 환경에서 NetApp 스토리지와 NetApp Data Services 중앙에서 관리하여 실시간 통찰력, 더 빠른 워크플로, 간소화된 관리를 제공하며, 높은 보안성과 규정 준수를 보장합니다.</block>
   <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetApp Console 릴리스 노트</block>
@@ -52,8 +49,6 @@
   <block id="e11189f51e944c56ae93486d4b5db590" category="doc">NetApp Console 의 Grid Manager를 사용하여 StorageGRID 관리</block>
   <block id="d5c34e6c10be47a51e62aadafb90e8f8" category="paragraph">고급 보기를 사용하여 콘솔에서 StorageGRID 시스템을 관리합니다.  이 보기를 사용하면 콘솔에서 Grid Manager를 사용할 수 있습니다.</block>
   <block id="f3d96e033470d8fb9d043aed29754d44" category="paragraph-title">필요한 NetApp Console 역할:</block>
-  <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">액세스 역할에 대해 알아보세요.</block>
-  <block id="647e72c68ac2b108fc4f872a4408d77a" category="paragraph">스토리지 관리자 또는 시스템 상태 전문가.<block ref="5a4d408bd57f7cf7efbd6cf878c737a7" category="inline-link-macro-rx"></block></block>
   <block id="1f0b82560627b660c6c6958a1df834b8" category="section-title">지원되는 구성</block>
   <block id="82f590009d4efe1d732fe71c4acb2ae2" category="paragraph">Grid Manager는 StorageGRID 11.8부터 콘솔에서 사용할 수 있습니다.</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">제한 사항</block>
@@ -74,7 +69,6 @@
   <block id="d1760d83776d2cad4f596e5fbdca7031" category="paragraph">저장 등급 링크</block>
   <block id="254f642527b45bc260048e30704edb39" category="paragraph">구성</block>
   <block id="8e8a68d187d0714e364a531fe90c3e48" category="list-text">그리드 비밀번호</block>
-  <block id="4e4b4ed3fd3d46ee1adfbe44d5d59f43" category="list-text">트래픽 분류 &gt; 메트릭</block>
   <block id="a48031b9725d4cf40505c76b9f1639b6" category="list-text">보안 설정 &gt; 브라우저 비활성 시간 초과</block>
   <block id="f349dbd269e091419d25308532e10fa9" category="list-text">단일 로그인</block>
   <block id="ca0fa3abc1c867e840da53c9362947e0" category="list-text">SNMP 에이전트 &gt; BMC 인터페이스용 MIB 파일</block>
@@ -83,18 +77,12 @@
   <block id="c329847c5a9eb54120dcc6a37e7688cd" category="list-text">소프트웨어 업데이트</block>
   <block id="db5eb84117d06047c97c9a0191b5fffe" category="paragraph">지원하다</block>
   <block id="18e8755b803a7bb837ea9fdd4a198fcf" category="list-text">그리드 토폴로지</block>
-  <block id="b2d37ae1cedf42ff874289b721860af2" category="list-text">로그</block>
-  <block id="e3c28fcb661163dc6895b75c04f2efd7" category="list-text">UI의 다른 위치에서 Prometheus 메트릭과 Grafana 대시보드에 대한 모든 링크를 포함한 메트릭입니다.</block>
   <block id="398728716b4e5021932fed1c2a8ebeb8" category="list-text">레거시 알람에 대한 모든 옵션</block>
   <block id="62e734353c5cfd6023d970172d9908a9" category="list-text">링크 비용</block>
   <block id="5afeba0bd099057d2f768c19f06ec2da" category="list-text">NMS 엔터티</block>
-  <block id="3862c7ad20b0923cf8f9b1be9e028f11" category="section-title">고급 보기로 전환</block>
-  <block id="4fd2f0ed2a27d6ecfe750ed0f462f569" category="paragraph">StorageGRID 시스템을 열고 고급 보기 옵션을 선택합니다.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
   <block id="f244da7e15f3999df2831b63141e093f" category="list-text">*시스템* 페이지에서 StorageGRID 시스템을 엽니다.</block>
-  <block id="692e1e106333597b5a86044f5e0af539" category="list-text">오른쪽 상단에서 *고급 보기로 전환*을 선택하세요.</block>
   <block id="4b233cf02f1889c420108e8345cc0030" category="list-text">Grid Manager를 사용하여 StorageGRID 시스템을 관리하세요.</block>
-  <block id="b7271b5e81c9ac4c11c4746d6b80a538" category="list-text">필요한 경우 콘솔을 통해 표준 보기로 돌아가려면 표준 보기로 전환을 선택하세요.</block>
   <block id="e5e3035b0f7e5a2843ab139092d0b6fa" category="section-title">Grid Manager에 대한 도움말 받기</block>
   <block id="3778f3873debfe11e2ace6bb6af1e417" category="inline-link">StorageGRID 문서</block>
   <block id="e05b3769a3e17ad902ca3ef85360d7f9" category="paragraph">Grid Manager 사용에 도움이 필요하면 다음을 참조하세요.<block ref="a933c7261fbaa2ef6900890d35e68b11" category="inline-link-rx"></block> 단계별 지침을 확인하세요.</block>
@@ -102,11 +90,8 @@
   <block id="c10ae48739661aebcdebc04124762406" category="doc">NetApp Console 에 StorageGRID 시스템 추가</block>
   <block id="5034e08cdc3b4865f67cdf020c27269b" category="paragraph">Grid Manager를 사용하여 NetApp Console 에서 직접 StorageGrid 시스템을 관리하세요.</block>
   <block id="dbbc09735940a2a21109b74dc600b92b" category="inline-link-macro">NetApp Console 액세스 역할에 대해 알아보세요.</block>
-  <block id="6fd600090915668444ea7d162325adc5" category="paragraph">스토리지 관리자 또는 시스템 상태 전문가.<block ref="df85ea2f8ea618bf5b67be06e51eaa48" category="inline-link-macro-rx"></block></block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">시작하기 전에</block>
   <block id="4c6a9048ac276eb9391ebe2abd8e0c0d" category="paragraph">다음이 필요합니다.</block>
-  <block id="d4a6e71a69daabc670296b6e5d940bcf" category="inline-link">귀하의 조직 관리자에게 문의하세요.</block>
-  <block id="f989c70e8b10ec6677c8508c4ad6716d" category="list-text">버전 3.9.43 이상을 사용하는 NetApp Console 에이전트.  콘솔 에이전트를 설치하려면 조직 관리자 역할이 있어야 합니다.  귀하의 조직에 콘솔 에이전트가 있는지 확실하지 않거나 콘솔 에이전트를 만들어야 하는 경우 NetApp Console 관리자에게 문의하세요.<block ref="765570b937b73d16d7ea0af9aecd0128" category="inline-link-rx"></block></block>
   <block id="8ed6fea4723099b9cd21d8f577ab8fb6" category="list-text">관리 노드의 도메인 이름 또는 IP 주소입니다.</block>
   <block id="cdf740c7139af2d388c8083334061fa1" category="list-text">관리자 노드에 대한 관리자 자격 증명입니다.</block>
   <block id="7946381c1469da9982f0ec23675e074e" category="list-text">StorageGRID 시스템에 관리 인터페이스 인증서가 설치되었습니다.</block>
@@ -136,15 +121,12 @@
   <block id="a904ec7788dd2ecae857966472095d9f" category="list-text">NetApp Backup and Recovery 사용하면 온프레미스 ONTAP 시스템의 데이터를 NetApp StorageGRID 시스템의 개체 스토리지로 백업할 수 있습니다.</block>
   <block id="fb1b3179d6c46954a36b92cac0736222" category="paragraph">시작하려면 *시스템* 페이지로 이동하여 온프레미스 ONTAP 시스템을 StorageGRID 시스템으로 끌어다 놓으세요.</block>
   <block id="a4304a5e5ad0523cd1e2516efcbb04ea" category="inline-link">온프레미스 ONTAP 데이터를 StorageGRID 에 백업하는 방법에 대해 자세히 알아보세요.</block>
-  <block id="9e5b68fb5027979545709db9c86c496d" category="paragraph"><block ref="9e5b68fb5027979545709db9c86c496d" category="inline-link-rx"></block></block>
   <block id="04affab1cdd3516658ad652fcfaf5a44" category="list-text">NetApp Cloud Tiering 사용하면 온프레미스 ONTAP 클러스터에서 비활성 데이터를 StorageGRID 로 자동으로 계층화할 수 있습니다.</block>
   <block id="a7b3ca6a800aa86763c04f7fff5c0f0c" category="paragraph">시작하려면 *시스템* 페이지로 이동하여 온프레미스 ONTAP 시스템을 StorageGRID 시스템으로 끌어다 놓으세요.</block>
   <block id="39759be047cc5c7c6c37b3a3c14c7616" category="inline-link">온프레미스 ONTAP 클러스터에서 StorageGRID 로 데이터 계층화에 대해 자세히 알아보세요.</block>
-  <block id="f2c38058631be40aaf2ca546dedb5828" category="paragraph"><block ref="f2c38058631be40aaf2ca546dedb5828" category="inline-link-rx"></block></block>
   <block id="d84ae9c5fee4a20424a50b491bf9ca94" category="list-text">NetApp Copy and Sync 사용하여 StorageGRID 시스템과 데이터를 동기화합니다.</block>
   <block id="d95e5db4ff301d281f0779f0048181e8" category="paragraph">시작하려면 *시스템* 페이지로 가서 소스 시스템을 대상 시스템으로 끌어다 놓으세요.  StorageGRID 소스 또는 대상이 될 수 있습니다.</block>
   <block id="3759d89c909b76c79aaa28ed2ce4306a" category="inline-link">NetApp Copy and Sync 에 대해 자세히 알아보세요</block>
-  <block id="cab10d8498bc6058193227ca80c2484e" category="paragraph"><block ref="cab10d8498bc6058193227ca80c2484e" category="inline-link-rx"></block></block>
   <block id="a99fab69b8aa9775fe1767ce605ae8bd" category="summary">NetApp 다양한 방법으로 NetApp Console 에 대한 지원을 제공합니다. 지식 기반(KB) 문서와 커뮤니티 포럼 등 광범위한 무료 셀프 지원 옵션을 연중무휴 24시간 이용할 수 있습니다. 지원 등록 시 웹 티켓팅을 통한 원격 기술 지원이 제공됩니다.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으세요</block>
   <block id="2feeca48692986e9cc471ec61f847fca" category="paragraph">NetApp 다양한 방법으로 NetApp Console 과 클라우드 서비스에 대한 지원을 제공합니다. 지식 기반(KB) 문서와 커뮤니티 포럼 등 광범위한 무료 셀프 지원 옵션을 24시간 연중무휴로 이용할 수 있습니다. 지원 등록 시 웹 티켓팅을 통한 원격 기술 지원이 제공됩니다.</block>
@@ -222,7 +204,6 @@
   <block id="1c0cf398fca729802189afd04195daca" category="summary">인증서는 만료될 수 있으므로 가끔 인증서 상태를 확인하거나 업데이트해야 할 수도 있습니다.</block>
   <block id="dd0d36f89a15258549e13613858361ef" category="doc">NetApp Console 에서 StorageGRID 인증서 보기 및 업데이트</block>
   <block id="5327d9fc450204dcc46442e6725edae3" category="paragraph">NetApp Console 에서 시스템을 검색하려면 먼저 StorageGRID 시스템에 관리 인터페이스 인증서가 필요합니다.  인증서는 콘솔과 StorageGRID 간의 보안 연결을 제공합니다.  인증서는 만료될 수 있으므로 가끔 인증서 상태를 확인하거나 업데이트해야 할 수도 있습니다.</block>
-  <block id="c770cc35592d37d6c613acd34268446d" category="paragraph">저장소 관리자.<block ref="df85ea2f8ea618bf5b67be06e51eaa48" category="inline-link-macro-rx"></block></block>
   <block id="fbd54ca9d42fc0afdb26c5c699c8e55e" category="section-title">관리 인터페이스 인증서 상태 보기</block>
   <block id="ac2871047714af92edb3022cb27acb51" category="paragraph">StorageGRID 시스템의 관리 인터페이스 인증서 상태를 보고 인증서가 여전히 유효한지 확인하세요.</block>
   <block id="d98db4acfa58dea7d268506b66ad6e71" category="list-text">*시스템* 페이지에서 StorageGRID 시스템을 선택합니다.</block>
@@ -230,11 +211,8 @@
   <block id="5c8aefe50da5e68bac8b7fadb69f27cd" category="admonition">인증서 상태는 24시간마다 새로 고쳐집니다.</block>
   <block id="ed705c097546086b65ee2918f8c18f93" category="section-title">관리 인터페이스 인증서 업데이트</block>
   <block id="7119ba4526ce61e0874111f9ae6c8000" category="paragraph">관리 인터페이스 인증서 상태가 유효하지 않거나 인증서가 만료되었다는 알림을 받은 경우 NetApp Console StorageGRID 에 연결할 수 있도록 인증서를 업데이트해야 합니다.</block>
-  <block id="4b4e284cad41e74d772677e47ccbf432" category="list-text">StorageGRID 의 온프레미스 Grid Manager로 이동하여 지침을 따르세요.<block ref="e4a1425c9a71162659bfbfada9a25737" category="inline-link-rx"></block> .</block>
   <block id="1155fb969d9717092513d154149e1f78" category="list-text">NetApp Console 탐색 메뉴에서 *스토리지 &gt; 관리*를 선택합니다.</block>
-  <block id="40540158a277d365081d54ce377ee023" category="list-text">더 많은 옵션 아이콘(세 개의 수직 점이 있는 원)을 선택하세요.</block>
   <block id="9769a2363939e90bde7efa3d07411abc" category="inline-image-macro">업데이트 메뉴의 스크린샷입니다.</block>
-  <block id="37ed989771f3eef279909a198294f53c" category="paragraph"><block ref="37ed989771f3eef279909a198294f53c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="de70401c3464a4edf8505f4b7a4258de" category="list-text">*인증서 업데이트*를 선택하세요.</block>
   <block id="434da4cffed06e08c23765d021db1afc" category="list-text">_인증서 승인_ 페이지에서 *인증서 승인*을 선택하여 업데이트된 인증서를 사용합니다.</block>
   <block id="49332d7ca8fe54f04384a507c81221de" category="summary">더 이상 NetApp Console 에서 StorageGRID 시스템을 관리하지 않으려면 해당 시스템을 제거하세요.</block>
@@ -324,9 +302,7 @@
   <block id="e8d1456416daa95bfb687099cc3fbb58" category="summary">NetApp Console 에서 StorageGRID 시스템을 관리하는 새로운 기능에 대해 알아보세요.</block>
   <block id="a39b0065ec636bbdd671213be9d343f4" category="doc">StorageGRID 관리의 새로운 기능</block>
   <block id="59adf231110f5ab5dfdc34e98dacaf75" category="paragraph">NetApp Console 에서 StorageGRID 시스템을 관리하는 새로운 기능에 대해 알아보세요.</block>
-  <block id="91d6aafc857e46203357e992ab4434f8" category="section-title">2025년 10월 6일</block>
   <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025년 5월 12일</block>
-  <block id="43371a1519dc6641cd8852962e536c3e" category="section-title">2024년 8월 7일</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
   <block id="2a5debfc305ca51b1d9a57049c60e8cb" category="sidebar">Grid Manager를 사용하여 NetApp Console 에서 StorageGRID 시스템을 관리하고 NetApp 데이터 서비스를 사용하여 백업, 데이터 계층화 등을 수행하세요.</block>
   <block id="7b63e3ab012c50052cf80c91528ad009" category="sidebar">NetApp Console 사용한 StorageGRID 관리</block>
@@ -349,4 +325,26 @@
   <block id="21bd2ca4d81529bdc81f70cd7c8cda30" category="sidebar">고급 보기를 사용하여 StorageGRID 관리</block>
   <block id="ae52ff2fa45ec695a0eb4dddc56142e2" category="sidebar">시스템 제거</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식과 지원</block>
+  <block id="597e4208265714f5fbe715a2ecb5cde8" category="doc">NetApp Console 액세스 역할이 필요합니다.</block>
+  <block id="c781879460e95147a58b10c5822cdee1" category="paragraph">이제 NetApp Console 에서 StorageGRID 보거나 검색하거나 관리하려면 다음 액세스 역할 중 하나가 필요합니다. *조직 관리자*, *폴더 또는 프로젝트 관리자*, *스토리지 관리자* 또는 *스토리지 상태 전문가*.<block ref="fc1e28d913c6a538c5e9638adc8cfee2" category="inline-link-macro-rx"></block></block>
+  <block id="0e6e1e539b578c2b0388d566d8ae4e15" category="inline-link-macro">액세스 역할에 대해 알아보세요</block>
+  <block id="646004f6286a1c6652c0617f8c295eb1" category="paragraph">스토리지 관리자 또는 시스템 상태 전문가. <block ref="d7b3a182e3f4d537df96f0ab119b3719" category="inline-link-macro-rx"></block>.</block>
+  <block id="d4a8473f83e1246e0b3ab08e2034db7c" category="list-text">로그 수집</block>
+  <block id="eb314977d68b7a27dec7c42f71cc734e" category="list-text">Prometheus 메트릭 및 Grafana 대시보드에 대한 모든 링크</block>
+  <block id="691d3813e42d3c7a96ce16136d8f0585" category="section-title">그리드 관리자로 전환</block>
+  <block id="c7c42727522342992d0d5a7ac5aac3e9" category="paragraph">StorageGRID 시스템을 열고 Grid Manager 옵션을 선택합니다.</block>
+  <block id="1da95130af2b7aa7e5215a16b692f80d" category="list-text">오른쪽 상단에서 *그리드 관리자로 전환*을 선택합니다.</block>
+  <block id="7c1357c2af5a3afec56f643266c2d663" category="list-text">필요한 경우, *돌아가기*를 선택하여 콘솔을 통해 표준 보기로 돌아갑니다.</block>
+  <block id="5ed613d5969e54b01e0691f040afb027" category="inline-link-macro">NetApp Console 액세스 역할에 대해 알아보세요</block>
+  <block id="b65ed78cf783dfcf7a11227a16dee299" category="paragraph">스토리지 관리자 또는 시스템 상태 전문가. <block ref="d47ae35a0d63c1eadf9e54d8e5017d63" category="inline-link-macro-rx"></block>.</block>
+  <block id="b8bf9c5f4f01e9e78e739fa6ff26281c" category="inline-link">귀하의 조직 관리자에게 문의하세요</block>
+  <block id="4dd7a3812d2662d3ef305d5a6c0d94af" category="list-text">버전 3.9.43 이상을 사용하는 NetApp Console 에이전트. 콘솔 에이전트를 설치하려면 조직 관리자 역할이 있어야 합니다. 귀하의 조직에 콘솔 에이전트가 있는지 확실하지 않거나 콘솔 에이전트를 만들어야 하는 경우 NetApp Console 관리자에게 문의하세요.<block ref="bf3f14d32c77964cfe44fa0cda47d96b" category="inline-link-rx"></block> .</block>
+  <block id="d018f459a83db6ae4ef422998ab9f915" category="paragraph"><block ref="d018f459a83db6ae4ef422998ab9f915" category="inline-link-rx"></block></block>
+  <block id="7ca0b225eb61965fb6db2810569aaf51" category="paragraph"><block ref="7ca0b225eb61965fb6db2810569aaf51" category="inline-link-rx"></block></block>
+  <block id="1bac2f8f82de86bfa404d8d3deb90386" category="paragraph"><block ref="1bac2f8f82de86bfa404d8d3deb90386" category="inline-link-rx"></block></block>
+  <block id="3b4f10f05a412a74c29d6cac7ecfd74c" category="paragraph">저장소 관리자. <block ref="d47ae35a0d63c1eadf9e54d8e5017d63" category="inline-link-macro-rx"></block>.</block>
+  <block id="18fea311c452091646a60f89f3386c23" category="list-text">StorageGRID 의 온프레미스 Grid Manager로 이동하여 지침을 따르세요.<block ref="5ba9fd123e556ebaf5f5a56be0d2c8b7" category="inline-link-rx"></block> .</block>
+  <block id="3f4224139b9cbf910de436e966798772" category="list-text">더 많은 옵션 아이콘(세 개의 수평 점이 있는 원)을 선택하세요.</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025년 10월 6일</block>
+  <block id="d6b2c344cefb2303b488f51358e47bad" category="section-title">2024년 8월 7일</block>
 </blocks>
