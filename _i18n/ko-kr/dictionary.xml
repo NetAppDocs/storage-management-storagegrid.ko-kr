@@ -85,7 +85,6 @@
   <block id="4b233cf02f1889c420108e8345cc0030" category="list-text">Grid Manager를 사용하여 StorageGRID 시스템을 관리하세요.</block>
   <block id="e5e3035b0f7e5a2843ab139092d0b6fa" category="section-title">Grid Manager에 대한 도움말 받기</block>
   <block id="3778f3873debfe11e2ace6bb6af1e417" category="inline-link">StorageGRID 문서</block>
-  <block id="e05b3769a3e17ad902ca3ef85360d7f9" category="paragraph">Grid Manager 사용에 도움이 필요하면 다음을 참조하세요.<block ref="a933c7261fbaa2ef6900890d35e68b11" category="inline-link-rx"></block> 단계별 지침을 확인하세요.</block>
   <block id="d151acbef027ea9883e40b32274c5a04" category="summary">온프레미스 환경에서 StorageGRID 시스템을 검색한 다음 Grid Manager를 사용하여 NetApp Console 에서 직접 관리하세요.</block>
   <block id="c10ae48739661aebcdebc04124762406" category="doc">NetApp Console 에 StorageGRID 시스템 추가</block>
   <block id="5034e08cdc3b4865f67cdf020c27269b" category="paragraph">Grid Manager를 사용하여 NetApp Console 에서 직접 StorageGrid 시스템을 관리하세요.</block>
@@ -96,7 +95,6 @@
   <block id="cdf740c7139af2d388c8083334061fa1" category="list-text">관리자 노드에 대한 관리자 자격 증명입니다.</block>
   <block id="7946381c1469da9982f0ec23675e074e" category="list-text">StorageGRID 시스템에 관리 인터페이스 인증서가 설치되었습니다.</block>
   <block id="899334f483a8eb1e661e504ffe749109" category="inline-link">StorageGRID 에 관리 인터페이스 인증서를 설치하는 방법에 대해 자세히 알아보세요.</block>
-  <block id="29f8a7fdcc1561634392c06486db3526" category="paragraph"><block ref="29f8a7fdcc1561634392c06486db3526" category="inline-link-rx"></block></block>
   <block id="c27deb5ada399336a287848889d2032c" category="list-text">탐색 메뉴에서 *저장소 &gt; 관리*를 선택합니다.</block>
   <block id="a2bbc305e061bf1ea8c419672c377672" category="list-text">*시스템*을 선택하세요.</block>
   <block id="5211458073f915c9abf57481c61698ad" category="list-text">*시스템 추가*를 선택하고 *온프레미스*를 선택합니다.</block>
@@ -105,7 +103,6 @@
   <block id="c11467c66c9d20aefade3d8c6a472be6" category="list-text">콘솔은 자동으로 StorageGRID 관리 인터페이스 인증서를 검색합니다.  _인증서 승인_ 페이지에서 인증서 세부 정보를 검토합니다.</block>
   <block id="b7b06656b02cb84d84e7f79e844f69e6" category="list-text">다른 인증서를 사용하려면 먼저 StorageGRID 시스템에 인증서를 설정하세요.</block>
   <block id="fd6ef625f97076ff9598106b60195180" category="inline-link">StorageGRID 에 관리 인터페이스 인증서 설치</block>
-  <block id="7ca143532806a5c7adafe28564a2076a" category="list-text">온프레미스 StorageGRID 시스템에서 다음 지침을 따르세요.<block ref="0cf12816ab392319fa8fa5ca90f97c92" category="inline-link-rx"></block> .</block>
   <block id="9d802d0448e390fa63540342de811f28" category="list-text">StorageGRID 시스템에서 인증서를 구성한 후 콘솔의 _인증서 승인_ 페이지에서 *취소*를 선택합니다.</block>
   <block id="9ae82cb65355b4df3873a1db559ff935" category="list-text">_StorageGRID 클러스터 세부 정보_ 페이지에서 *추가*를 선택합니다.</block>
   <block id="f366bb321d887c34c28635516c2e2a3f" category="list-text">선택적으로 *증명서 복사*를 선택하여 증명서 세부 정보를 복사합니다.  원하는 경우 인증서 세부 정보를 사용하여 추가 검증을 수행할 수 있습니다.</block>
@@ -347,4 +344,7 @@
   <block id="3f4224139b9cbf910de436e966798772" category="list-text">더 많은 옵션 아이콘(세 개의 수평 점이 있는 원)을 선택하세요.</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025년 10월 6일</block>
   <block id="d6b2c344cefb2303b488f51358e47bad" category="section-title">2024년 8월 7일</block>
+  <block id="2091f731164c7be0cc441cb14dd7e0fb" category="paragraph">Grid Manager 사용에 도움이 필요하면 다음을 참조하세요.<block ref="a5ef9ecfc4cb4075bbcd8c75bedb3b47" category="inline-link-rx"></block> 단계별 지침을 확인하세요.</block>
+  <block id="02e289e09609553bd74d5dda81ecb5e1" category="paragraph"><block ref="02e289e09609553bd74d5dda81ecb5e1" category="inline-link-rx"></block></block>
+  <block id="bc8c7fb093008fb3e0be35efca86b665" category="list-text">온프레미스 StorageGRID 시스템에서 다음 지침을 따르세요.<block ref="ccef0a266f4ff51bd9b89e82df562999" category="inline-link-rx"></block>.</block>
 </blocks>

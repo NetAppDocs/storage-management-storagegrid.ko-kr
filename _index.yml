@@ -23,7 +23,7 @@ indexpage:
   - title: 더 많은 정보
     links:
     - title: NetApp Console 외부에서 관리하기 위한 StorageGRID 설명서
-      url: https://docs.netapp.com/us-en/storagegrid-118/
+      url: https://docs.netapp.com/us-en/storagegrid/
   - title: 블로그 및 커뮤니티
     links:
     - title: NetApp Console

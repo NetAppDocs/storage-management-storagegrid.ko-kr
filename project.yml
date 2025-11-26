@@ -30,7 +30,7 @@ sidebar:
     - title: StorageGRID 인증서 보기 및 업데이트
       url: "/task-manage-certificates.html"
     - title: 고급 보기를 사용하여 StorageGRID 관리
-      url: task-administer-storagegrid.html
+      url: "/task-administer-storagegrid.html"
     - title: StorageGRID 와 함께 NetApp 데이터 서비스 사용
       url: "/task-enable-data-services.html"
     - title: 시스템 제거

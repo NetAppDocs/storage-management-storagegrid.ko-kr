@@ -31,7 +31,7 @@ Grid Manager는 StorageGRID 11.8부터 콘솔에서 사용할 수 있습니다.
 
 다음 Grid Manager 작업은 콘솔에서 사용할 수 없습니다.  이러한 작업을 수행해야 하는 경우 Grid Manager에 직접 로그인하세요.
 
-[cols="1a,2a"]
+[cols="1a,3a"]
 |===
 | 그리드 관리자 메뉴 | 콘솔에서 사용할 수 없는 작업 
 
@@ -120,4 +120,4 @@ StorageGRID 시스템을 열고 Grid Manager 옵션을 선택합니다.
 
 == Grid Manager에 대한 도움말 받기
 
-Grid Manager 사용에 도움이 필요하면 다음을 참조하세요. https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["StorageGRID 문서"^] 단계별 지침을 확인하세요.
+Grid Manager 사용에 도움이 필요하면 다음을 참조하세요. https://docs.netapp.com/us-en/storagegrid/admin/index.html["StorageGRID 문서"^] 단계별 지침을 확인하세요.
