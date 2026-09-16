@@ -17,7 +17,7 @@ summary: 온프레미스 환경에서 StorageGRID 시스템을 검색한 다음 
 Grid Manager를 사용하여 NetApp Console 에서 직접 StorageGrid 시스템을 관리하세요.
 
 .필요한 NetApp Console 역할:
-스토리지 관리자 또는 시스템 상태 전문가. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["NetApp Console 액세스 역할에 대해 알아보세요"^].
+최고 관리자, 스토리지 관리자 또는 시스템 상태 전문가. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetApp Console 액세스 역할에 대해 알아보세요."^]
 
 .시작하기 전에
 다음이 필요합니다.

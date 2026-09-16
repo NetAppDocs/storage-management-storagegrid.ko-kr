@@ -17,10 +17,11 @@ summary: 인증서는 만료될 수 있으므로 가끔 인증서 상태를 확�
 NetApp Console 에서 시스템을 검색하려면 먼저 StorageGRID 시스템에 관리 인터페이스 인증서가 필요합니다.  인증서는 콘솔과 StorageGRID 간의 보안 연결을 제공합니다.  인증서는 만료될 수 있으므로 가끔 인증서 상태를 확인하거나 업데이트해야 할 수도 있습니다.
 
 .필요한 NetApp Console 역할:
-저장소 관리자. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["NetApp Console 액세스 역할에 대해 알아보세요"^].
+Super admin 또는 Storage admin. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["NetApp Console 액세스 역할에 대해 알아보세요."^]
 
 
 
+[[view-the-status-of-a-management-interface-certificate]]
 == 관리 인터페이스 인증서 상태 보기
 
 StorageGRID 시스템의 관리 인터페이스 인증서 상태를 보고 인증서가 여전히 유효한지 확인하세요.
@@ -37,6 +38,7 @@ NOTE: 인증서 상태는 24시간마다 새로 고쳐집니다.
 
 
 
+[[update-the-management-interface-certificate]]
 == 관리 인터페이스 인증서 업데이트
 
 관리 인터페이스 인증서 상태가 유효하지 않거나 인증서가 만료되었다는 알림을 받은 경우 NetApp Console StorageGRID 에 연결할 수 있도록 인증서를 업데이트해야 합니다.

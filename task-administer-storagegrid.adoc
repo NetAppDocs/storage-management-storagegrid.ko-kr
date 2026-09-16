@@ -17,16 +17,18 @@ summary: 고급 보기를 사용하여 NetApp Console 에서 StorageGRID 시스�
 고급 보기를 사용하여 콘솔에서 StorageGRID 시스템을 관리합니다.  이 보기를 사용하면 콘솔에서 Grid Manager를 사용할 수 있습니다.
 
 .필요한 NetApp Console 역할:
-스토리지 관리자 또는 시스템 상태 전문가. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["액세스 역할에 대해 알아보세요"^].
+Super admin, Storage admin, 또는 System health specialist. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["액세스 역할에 대해 알아보십시오."^]
 
 
 
+[[supported-configurations]]
 == 지원되는 구성
 
 Grid Manager는 StorageGRID 11.8부터 콘솔에서 사용할 수 있습니다.
 
 
 
+[[limitations]]
 == 제한 사항
 
 다음 Grid Manager 작업은 콘솔에서 사용할 수 없습니다.  이러한 작업을 수행해야 하는 경우 Grid Manager에 직접 로그인하세요.
@@ -105,6 +107,7 @@ Grid Manager는 StorageGRID 11.8부터 콘솔에서 사용할 수 있습니다.
 |===
 
 
+[[switch-to-grid-manager]]
 == 그리드 관리자로 전환
 
 StorageGRID 시스템을 열고 Grid Manager 옵션을 선택합니다.
@@ -118,6 +121,7 @@ StorageGRID 시스템을 열고 Grid Manager 옵션을 선택합니다.
 
 
 
+[[get-help-with-grid-manager]]
 == Grid Manager에 대한 도움말 받기
 
 Grid Manager 사용에 도움이 필요하면 다음을 참조하세요. https://docs.netapp.com/us-en/storagegrid/admin/index.html["StorageGRID 문서"^] 단계별 지침을 확인하세요.
